@@ -1,0 +1,61 @@
+cell,lam,rep,alg,mean_delay,served_pct
+light,1000,0,Smart Safe,2.78,100.0
+light,1000,0,full Smart Stop,2.52,100.0
+light,1000,0,Roundabout,1.66,100.0
+arterial,2000,0,Smart Safe,52.66,100.0
+arterial,2000,0,full Smart Stop,56.85,100.0
+arterial,2000,0,Roundabout,73.25,100.0
+balanced,2400,0,Smart Safe,67.31,100.0
+balanced,2400,0,full Smart Stop,83.38,100.0
+balanced,2400,0,Roundabout,37.55,100.0
+dominant,2400,0,Smart Safe,136.32,90.49
+dominant,2400,0,full Smart Stop,142.08,91.72
+dominant,2400,0,Roundabout,141.1,99.38
+light,1000,1,Smart Safe,1.31,100.0
+light,1000,1,full Smart Stop,1.28,100.0
+light,1000,1,Roundabout,1.69,100.0
+arterial,2000,1,Smart Safe,54.5,100.0
+arterial,2000,1,full Smart Stop,52.61,100.0
+arterial,2000,1,Roundabout,66.44,100.0
+balanced,2400,1,Smart Safe,51.41,100.0
+balanced,2400,1,full Smart Stop,67.02,100.0
+balanced,2400,1,Roundabout,28.39,100.0
+dominant,2400,1,Smart Safe,122.83,95.12
+dominant,2400,1,full Smart Stop,130.03,94.51
+dominant,2400,1,Roundabout,123.5,100.0
+light,1000,2,Smart Safe,2.11,100.0
+light,1000,2,full Smart Stop,2.08,100.0
+light,1000,2,Roundabout,2.51,100.0
+arterial,2000,2,Smart Safe,22.55,100.0
+arterial,2000,2,full Smart Stop,18.35,100.0
+arterial,2000,2,Roundabout,25.5,100.0
+balanced,2400,2,Smart Safe,62.92,100.0
+balanced,2400,2,full Smart Stop,78.32,100.0
+balanced,2400,2,Roundabout,41.91,100.0
+dominant,2400,2,Smart Safe,146.61,87.94
+dominant,2400,2,full Smart Stop,152.35,89.21
+dominant,2400,2,Roundabout,143.64,100.0
+light,1000,3,Smart Safe,1.64,100.0
+light,1000,3,full Smart Stop,1.48,100.0
+light,1000,3,Roundabout,1.51,100.0
+arterial,2000,3,Smart Safe,61.99,100.0
+arterial,2000,3,full Smart Stop,60.97,100.0
+arterial,2000,3,Roundabout,77.77,100.0
+balanced,2400,3,Smart Safe,73.76,100.0
+balanced,2400,3,full Smart Stop,82.51,100.0
+balanced,2400,3,Roundabout,39.92,100.0
+dominant,2400,3,Smart Safe,136.1,94.05
+dominant,2400,3,full Smart Stop,138.83,95.83
+dominant,2400,3,Roundabout,113.42,100.0
+light,1000,4,Smart Safe,1.74,100.0
+light,1000,4,full Smart Stop,1.73,100.0
+light,1000,4,Roundabout,1.38,100.0
+arterial,2000,4,Smart Safe,28.52,100.0
+arterial,2000,4,full Smart Stop,20.61,100.0
+arterial,2000,4,Roundabout,34.37,100.0
+balanced,2400,4,Smart Safe,82.63,100.0
+balanced,2400,4,full Smart Stop,83.68,100.0
+balanced,2400,4,Roundabout,37.63,100.0
+dominant,2400,4,Smart Safe,135.09,97.44
+dominant,2400,4,full Smart Stop,143.24,95.83
+dominant,2400,4,Roundabout,123.39,100.0

@@ -1,0 +1,4 @@
+pattern,lam_vph,rep,algorithm,overall,worst_p95,served_frac,min_dist_m,min_samepath_m
+one_heavy,2000,0,Roundabout,93.46,200.19,1.0,3.54,6.02
+one_heavy,2000,0,SmartStopReal,109.79,480.83,1.0,3.54,7.3
+one_heavy,2000,0,SmartStopAdaptive,104.23,483.52,1.0,3.54,7.32

@@ -1,0 +1,312 @@
+{
+  "metadata": {
+    "timestamp": "2025-11-25T19:58:16.816779",
+    "geometry_type": "4way",
+    "total_scenarios": 6
+  },
+  "scenarios": [
+    {
+      "name": "S1: Simple Straight",
+      "description": "Two vehicles, same road, straight through",
+      "vehicles": [
+        [
+          "Main E",
+          "NS/S",
+          1
+        ],
+        [
+          "Main E",
+          "NS/S",
+          2
+        ]
+      ],
+      "winner": "Smart Stop",
+      "results": {
+        "Traditional": {
+          "total_time": 9.89999999999998,
+          "avg_wait_time": 2.549999999999999,
+          "throughput": 0.2020202020202024,
+          "completed_vehicles": 2
+        },
+        "Roundabout": {
+          "total_time": 7.799999999999988,
+          "avg_wait_time": 1.950000000000001,
+          "throughput": 0.2564102564102568,
+          "completed_vehicles": 2
+        },
+        "Smart Stop": {
+          "total_time": 7.599999999999989,
+          "avg_wait_time": 1.850000000000001,
+          "throughput": 0.2631578947368425,
+          "completed_vehicles": 2
+        },
+        "Smart Safe": {
+          "total_time": 8.099999999999987,
+          "avg_wait_time": 2.1000000000000005,
+          "throughput": 0.24691358024691398,
+          "completed_vehicles": 2
+        }
+      }
+    },
+    {
+      "name": "S2: Perpendicular Crossing",
+      "description": "Two vehicles crossing perpendicular at intersection",
+      "vehicles": [
+        [
+          "Main E",
+          "NS/S",
+          1
+        ],
+        [
+          "Green N",
+          "NS/S",
+          2
+        ]
+      ],
+      "winner": "Smart Stop",
+      "results": {
+        "Traditional": {
+          "total_time": 9.89999999999998,
+          "avg_wait_time": 2.549999999999999,
+          "throughput": 0.2020202020202024,
+          "completed_vehicles": 2
+        },
+        "Roundabout": {
+          "total_time": 8.099999999999987,
+          "avg_wait_time": 2.1000000000000005,
+          "throughput": 0.24691358024691398,
+          "completed_vehicles": 2
+        },
+        "Smart Stop": {
+          "total_time": 7.699999999999989,
+          "avg_wait_time": 1.900000000000001,
+          "throughput": 0.2597402597402601,
+          "completed_vehicles": 2
+        },
+        "Smart Safe": {
+          "total_time": 8.099999999999987,
+          "avg_wait_time": 2.1000000000000005,
+          "throughput": 0.24691358024691398,
+          "completed_vehicles": 2
+        }
+      }
+    },
+    {
+      "name": "S3: Right Turns",
+      "description": "Multiple right turns from different approaches",
+      "vehicles": [
+        [
+          "Main E",
+          "R",
+          1
+        ],
+        [
+          "Green N",
+          "R",
+          2
+        ],
+        [
+          "Main W",
+          "R",
+          3
+        ]
+      ],
+      "winner": "Smart Stop",
+      "results": {
+        "Traditional": {
+          "total_time": 11.199999999999976,
+          "avg_wait_time": 3.799999999999997,
+          "throughput": 0.2678571428571434,
+          "completed_vehicles": 3
+        },
+        "Roundabout": {
+          "total_time": 6.799999999999992,
+          "avg_wait_time": 1.2666666666666673,
+          "throughput": 0.44117647058823584,
+          "completed_vehicles": 3
+        },
+        "Smart Stop": {
+          "total_time": 6.699999999999992,
+          "avg_wait_time": 1.2000000000000006,
+          "throughput": 0.44776119402985126,
+          "completed_vehicles": 3
+        },
+        "Smart Safe": {
+          "total_time": 9.99999999999998,
+          "avg_wait_time": 3.399999999999998,
+          "throughput": 0.3000000000000006,
+          "completed_vehicles": 3
+        }
+      }
+    },
+    {
+      "name": "S4: Mixed Turns",
+      "description": "Mix of left turns, right turns, and straight",
+      "vehicles": [
+        [
+          "Main E",
+          "R",
+          1
+        ],
+        [
+          "Green N",
+          "L",
+          2
+        ],
+        [
+          "Main W",
+          "NS/S",
+          3
+        ],
+        [
+          "Green S",
+          "R",
+          4
+        ]
+      ],
+      "winner": "Smart Stop",
+      "results": {
+        "Traditional": {
+          "total_time": 18.099999999999987,
+          "avg_wait_time": 6.949999999999987,
+          "throughput": 0.2209944751381217,
+          "completed_vehicles": 4
+        },
+        "Roundabout": {
+          "total_time": 8.599999999999985,
+          "avg_wait_time": 2.2,
+          "throughput": 0.4651162790697682,
+          "completed_vehicles": 4
+        },
+        "Smart Stop": {
+          "total_time": 8.499999999999986,
+          "avg_wait_time": 2.000000000000001,
+          "throughput": 0.4705882352941184,
+          "completed_vehicles": 4
+        },
+        "Smart Safe": {
+          "total_time": 15.099999999999962,
+          "avg_wait_time": 5.7749999999999915,
+          "throughput": 0.2649006622516563,
+          "completed_vehicles": 4
+        }
+      }
+    },
+    {
+      "name": "S5: Backward Priority",
+      "description": "Tests Smart Stop backward priority advantage",
+      "vehicles": [
+        [
+          "Main E",
+          "R",
+          1
+        ],
+        [
+          "Green S",
+          "L",
+          2
+        ],
+        [
+          "Main W",
+          "R",
+          3
+        ],
+        [
+          "Green N",
+          "NS/S",
+          4
+        ]
+      ],
+      "winner": "Roundabout",
+      "results": {
+        "Traditional": {
+          "total_time": 18.099999999999987,
+          "avg_wait_time": 6.649999999999988,
+          "throughput": 0.2209944751381217,
+          "completed_vehicles": 4
+        },
+        "Roundabout": {
+          "total_time": 7.799999999999988,
+          "avg_wait_time": 1.8000000000000007,
+          "throughput": 0.5128205128205136,
+          "completed_vehicles": 4
+        },
+        "Smart Stop": {
+          "total_time": 7.799999999999988,
+          "avg_wait_time": 1.7500000000000009,
+          "throughput": 0.5128205128205136,
+          "completed_vehicles": 4
+        },
+        "Smart Safe": {
+          "total_time": 15.099999999999962,
+          "avg_wait_time": 5.599999999999992,
+          "throughput": 0.2649006622516563,
+          "completed_vehicles": 4
+        }
+      }
+    },
+    {
+      "name": "S6: Complex Real-World",
+      "description": "Full intersection with 6 vehicles",
+      "vehicles": [
+        [
+          "Main E",
+          "R",
+          1
+        ],
+        [
+          "Main E",
+          "L",
+          2
+        ],
+        [
+          "Green N",
+          "NS/S",
+          3
+        ],
+        [
+          "Green N",
+          "R",
+          4
+        ],
+        [
+          "Main W",
+          "L",
+          5
+        ],
+        [
+          "Green S",
+          "NS/S",
+          6
+        ]
+      ],
+      "winner": "Smart Stop",
+      "results": {
+        "Traditional": {
+          "total_time": 32.30000000000019,
+          "avg_wait_time": 12.216666666666676,
+          "throughput": 0.18575851393188747,
+          "completed_vehicles": 6
+        },
+        "Roundabout": {
+          "total_time": 16.79999999999997,
+          "avg_wait_time": 5.599999999999991,
+          "throughput": 0.3571428571428578,
+          "completed_vehicles": 6
+        },
+        "Smart Stop": {
+          "total_time": 15.69999999999996,
+          "avg_wait_time": 4.9333333333333265,
+          "throughput": 0.38216560509554237,
+          "completed_vehicles": 6
+        },
+        "Smart Safe": {
+          "total_time": 25.500000000000092,
+          "avg_wait_time": 9.949999999999994,
+          "throughput": 0.23529411764705796,
+          "completed_vehicles": 6
+        }
+      }
+    }
+  ]
+}

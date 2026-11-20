@@ -1,0 +1,16 @@
+pattern,lam_vph,algorithm,mean_delay,served_frac,min_dist_m
+balanced,2000,Roundabout,21.36,1.0,3.54
+balanced,2000,SmartStopPreflash,31.87,1.0,3.48
+balanced,2000,SmartStopPreflashOnly,31.4,1.0,3.48
+balanced,2400,Roundabout,37.55,1.0,3.54
+balanced,2400,SmartStopPreflash,53.58,1.0,3.48
+balanced,2400,SmartStopPreflashOnly,54.42,1.0,3.48
+arterial,1600,Roundabout,9.11,1.0,3.54
+arterial,1600,SmartStopReal,8.97,1.0,3.52
+arterial,1600,SmartStopPreflashOnly,5.37,1.0,3.48
+arterial,2000,Roundabout,73.25,1.0,3.54
+arterial,2000,SmartStopReal,56.85,1.0,3.52
+arterial,2000,SmartStopPreflashOnly,37.7,1.0,3.48
+arterial,2400,Roundabout,156.37,1.0,3.54
+arterial,2400,SmartStopReal,132.06,1.0,3.54
+arterial,2400,SmartStopPreflashOnly,107.22,1.0,3.48

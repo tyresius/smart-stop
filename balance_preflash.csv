@@ -1,0 +1,9 @@
+section,data
+equity,"{'rep': 0, 'victim_mean': np.float64(40.94), 'victim_p95': np.float64(90.34), 'dom_mean': np.float64(69.46), 'ratio': np.float64(0.59), 'min_dist_m': 3.48}"
+equity,"{'rep': 1, 'victim_mean': np.float64(15.11), 'victim_p95': np.float64(87.38), 'dom_mean': np.float64(56.55), 'ratio': np.float64(0.27), 'min_dist_m': 3.28}"
+equity,"{'rep': 2, 'victim_mean': np.float64(20.25), 'victim_p95': np.float64(50.59), 'dom_mean': np.float64(103.87), 'ratio': np.float64(0.19), 'min_dist_m': 3.47}"
+equity,"{'rep': 3, 'victim_mean': np.float64(46.41), 'victim_p95': np.float64(116.11), 'dom_mean': np.float64(104.83), 'ratio': np.float64(0.44), 'min_dist_m': 3.48}"
+equity,"{'rep': 4, 'victim_mean': np.float64(52.27), 'victim_p95': np.float64(111.86), 'dom_mean': np.float64(127.94), 'ratio': np.float64(0.41), 'min_dist_m': 3.48}"
+regression,"{'cell': 'arterial', 'lam_vph': 2000, 'mean': 47.44, 'worst_p95': 199.95, 'served': 1.0, 'ref': 37.7, 'min_dist_m': 3.48}"
+regression,"{'cell': 'balanced', 'lam_vph': 2400, 'mean': 63.86, 'worst_p95': 178.92, 'served': 1.0, 'ref': 53.6, 'min_dist_m': 3.48}"
+regression,"{'cell': 'one_heavy', 'lam_vph': 2400, 'mean': 134.34, 'worst_p95': 485.99, 'served': 0.9571, 'ref': 131.5, 'min_dist_m': 3.48}"

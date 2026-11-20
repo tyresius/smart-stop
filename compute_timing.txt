@@ -1,0 +1,9 @@
+CONTROLLER STEP TIME (ms per 0.1 s step; 800 veh/h balanced, seeds 0-2, 25% non-signalling)
+Python 3.13.7 on arm64 (Darwin); CPU time per step (thread_time), unoptimised
+
+design                         steps   median      p99      max   budget
+Smart Safe, blind              18208     0.38     50.2    157.5      100
+Smart Safe, reads signals      18127     0.35     23.7     86.1      100
+
+Includes vehicle physics and simulation bookkeeping; excludes camera
+processing. Indicative of order of magnitude only.

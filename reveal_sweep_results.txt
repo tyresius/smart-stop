@@ -1,0 +1,19 @@
+Part A — safety, 129 adversarial scenarios per reveal
+  reveal 1.0 m: floor 2.36 m  (BREACH)  (9s)
+  reveal 2.0 m: floor 3.48 m  (SAFE)  (18s)
+
+Part B — arterial 40/40/10/10 @ 2,000 throughput per reveal
+  baseline SmartStopReal (trust): 56.85s  floor 3.52m  (106s)
+  reveal 1.0 m: 151.75s (+167%)  floor 3.83m  (2757s)
+  reveal 2.0 m: 180.62s (+218%)  floor 3.83m  (10471s)
+
+========================================================================
+DECIDING EXPERIMENT — reveal distance vs safety & arterial throughput
+========================================================================
+  reveal | disc. floor | arterial delay |  vs trust
+------------------------------------------------------------------------
+0 (trust) | 2.56 (vuln) |          56.9s |         —
+    1.0m |      2.36 m |         151.8s |     +167%
+    2.0m |      3.48 m |         180.6s |     +218%
+   4.0 m | 3.48 (safe) |         194.6s |     +242%
+========================================================================

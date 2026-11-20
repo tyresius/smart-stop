@@ -1,0 +1,10 @@
+Secant vs tangent predicted heading (degrees)
+
+movement   median     p95     max   corner shift at p95 / max (m)
+right         0.0    11.3    47.2            0.48 / 1.97
+left          0.0    16.0    59.3            0.69 / 2.44
+straight      0.0     0.0     0.0            0.00 / 0.00
+
+Corner shift = how far the far corner of a 4.5 x 2.0 m box moves
+when it is rotated by that error about its centre. The clearance
+buffer B = 1.0 m adds 0.5 m per side.

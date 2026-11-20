@@ -1,0 +1,235 @@
+split,lam,rep,alg,hesitation,mean_delay,p95_delay,served_pct,obb_real,obb_artifact,obb_min_gap_m,secs
+balanced,400,2,Signal,,6.17,15.72,100.0,0,0,2.5,1
+balanced,400,0,Signal,,5.17,15.65,100.0,0,0,2.47,1
+arterial,400,0,Signal,,4.68,15.88,100.0,0,0,1.86,1
+arterial,400,1,Signal,,5.95,19.84,100.0,0,0,1.81,1
+balanced,400,0,Smart Safe (blind),0.0,0.69,4.03,100.0,0,0,2.1,1
+balanced,400,1,Signal,,6.72,18.42,100.0,0,0,1.81,1
+arterial,400,2,Signal,,2.88,12.7,100.0,0,0,1.81,1
+arterial,400,0,Smart Safe (blind),0.0,0.59,3.6,100.0,0,0,1.86,2
+balanced,400,1,Smart Safe (blind),0.0,1.02,5.05,100.0,0,0,1.81,2
+balanced,400,2,Smart Safe (blind),0.0,1.47,6.64,100.0,0,0,2.35,1
+arterial,400,3,Signal,,4.05,15.01,100.0,0,0,1.86,1
+balanced,400,3,Signal,,4.82,10.31,100.0,0,0,2.5,1
+arterial,400,2,Smart Safe (blind),0.0,0.57,3.93,100.0,0,0,1.81,1
+balanced,400,4,Signal,,7.61,18.95,100.0,0,0,1.81,1
+arterial,400,4,Signal,,5.4,17.89,100.0,0,0,2.5,1
+arterial,400,3,Smart Safe (blind),0.0,1.15,4.67,100.0,0,0,2.5,2
+arterial,400,1,Smart Safe (blind),0.0,1.44,8.21,100.0,0,0,1.81,6
+balanced,400,3,Smart Safe (blind),0.0,1.58,7.52,100.0,0,0,2.24,6
+balanced,400,4,Smart Safe (blind),0.0,1.48,6.33,100.0,0,0,2.5,5
+arterial,400,4,Smart Safe (blind),0.0,1.66,7.99,100.0,0,0,2.5,5
+balanced,400,2,Smart Safe (blind),0.5,3.93,11.29,100.0,0,0,2.1,6
+arterial,400,0,Smart Safe (blind),0.5,3.17,8.47,100.0,0,0,2.1,7
+arterial,400,2,Smart Safe (blind),0.5,3.19,7.66,100.0,0,0,2.1,5
+balanced,400,0,Smart Safe (blind),0.5,3.98,9.2,100.0,0,0,2.1,9
+balanced,400,1,Smart Safe (blind),0.5,4.62,10.84,100.0,0,0,2.1,9
+arterial,400,3,Smart Safe (blind),0.5,4.61,10.26,100.0,0,0,2.1,8
+arterial,400,1,Smart Safe (blind),0.5,4.03,11.14,100.0,0,0,2.1,15
+balanced,400,4,Smart Safe (blind),0.5,4.53,12.22,100.0,0,0,2.1,12
+balanced,400,3,Smart Safe (blind),0.5,4.85,11.86,100.0,0,0,2.1,13
+arterial,400,0,Smart Safe (blind),1.0,4.09,11.67,100.0,0,0,2.1,10
+balanced,400,0,Smart Safe (blind),1.0,5.25,11.11,100.0,0,0,2.1,13
+balanced,400,2,Smart Safe (blind),1.0,4.9,13.23,100.0,0,0,2.1,7
+balanced,400,1,Smart Safe (blind),1.0,5.89,13.27,100.0,0,0,2.5,12
+arterial,400,2,Smart Safe (blind),1.0,4.08,9.06,100.0,0,0,2.1,7
+arterial,400,4,Smart Safe (blind),0.5,5.84,17.54,100.0,0,0,2.1,17
+arterial,400,3,Smart Safe (blind),1.0,5.9,14.1,100.0,0,0,2.1,10
+arterial,400,1,Smart Safe (blind),1.0,5.11,13.24,100.0,0,0,2.1,19
+balanced,400,4,Smart Safe (blind),1.0,5.78,14.47,100.0,0,0,2.1,12
+balanced,400,3,Smart Safe (blind),1.0,6.17,13.83,100.0,0,0,2.1,16
+arterial,400,4,Smart Safe (blind),1.0,7.52,19.43,100.0,0,0,2.1,18
+balanced,400,2,Smart Safe (blind),2.0,6.84,15.86,100.0,0,0,2.1,10
+balanced,400,1,Smart Safe (blind),2.0,8.16,21.04,100.0,0,0,2.5,15
+arterial,400,2,Smart Safe (blind),2.0,6.09,12.56,100.0,0,0,2.1,11
+arterial,400,0,Smart Safe (blind),2.0,6.44,16.16,100.0,0,0,2.1,18
+balanced,400,0,Smart Safe (blind),2.0,8.1,17.5,100.0,0,0,2.1,20
+arterial,400,3,Smart Safe (blind),2.0,7.94,17.67,100.0,0,0,2.1,13
+balanced,400,2,Smart Safe (blind),3.0,9.03,20.03,100.0,0,0,2.1,12
+balanced,400,3,Smart Safe (blind),2.0,10.11,27.38,100.0,0,0,2.1,29
+arterial,400,1,Smart Safe (blind),2.0,9.25,25.24,100.0,0,0,2.1,38
+balanced,400,1,Smart Safe (blind),3.0,11.09,27.29,100.0,0,0,2.5,23
+balanced,400,4,Smart Safe (blind),2.0,10.15,26.56,100.0,0,0,2.1,26
+balanced,400,0,Smart Safe (blind),3.0,11.7,23.61,100.0,0,0,2.1,31
+arterial,400,4,Smart Safe (blind),2.0,11.92,39.52,100.0,0,0,2.1,33
+balanced,600,0,Signal,,9.52,22.66,100.0,0,0,2.5,2
+arterial,400,2,Smart Safe (blind),3.0,8.16,15.14,100.0,0,0,2.1,15
+arterial,600,0,Signal,,5.96,16.33,100.0,0,0,1.86,2
+arterial,400,0,Smart Safe (blind),3.0,11.38,24.72,100.0,0,0,2.1,36
+balanced,600,1,Signal,,9.01,21.25,100.0,0,0,2.5,4
+balanced,600,0,Smart Safe (blind),0.0,2.22,8.29,100.0,0,0,2.1,8
+arterial,400,3,Smart Safe (blind),3.0,10.88,22.45,100.0,0,0,2.1,21
+arterial,600,1,Signal,,8.21,19.73,100.0,0,0,1.97,5
+balanced,600,1,Smart Safe (blind),0.0,1.85,7.03,100.0,0,0,2.5,10
+balanced,600,2,Signal,,9.91,28.5,100.0,0,0,1.81,3
+arterial,600,0,Smart Safe (blind),0.0,2.66,10.37,100.0,0,0,2.1,12
+arterial,600,2,Signal,,6.48,15.9,100.0,0,0,1.81,2
+balanced,600,3,Signal,,8.76,18.53,100.0,0,0,1.81,3
+balanced,600,2,Smart Safe (blind),0.0,2.41,8.42,100.0,0,0,1.86,8
+arterial,600,3,Signal,,7.16,21.11,100.0,0,0,1.81,3
+balanced,600,4,Signal,,6.19,18.04,100.0,0,0,2.5,2
+arterial,600,2,Smart Safe (blind),0.0,2.21,8.83,100.0,0,0,1.81,10
+arterial,600,4,Signal,,4.94,19.58,100.0,0,0,2.5,2
+balanced,600,3,Smart Safe (blind),0.0,2.8,8.39,100.0,0,0,2.1,12
+balanced,600,4,Smart Safe (blind),0.0,2.53,11.57,100.0,0,0,2.5,8
+arterial,600,3,Smart Safe (blind),0.0,1.9,6.39,100.0,0,0,1.81,12
+arterial,600,4,Smart Safe (blind),0.0,2.01,9.46,100.0,0,0,2.1,6
+balanced,400,3,Smart Safe (blind),3.0,14.88,41.21,100.0,0,0,2.1,44
+balanced,400,4,Smart Safe (blind),3.0,15.99,36.93,100.0,0,0,2.1,43
+balanced,600,0,Smart Safe (blind),0.5,5.37,16.05,100.0,0,0,2.1,21
+arterial,600,1,Smart Safe (blind),0.0,3.28,11.08,100.0,0,0,1.81,41
+arterial,400,4,Smart Safe (blind),3.0,18.71,65.91,100.0,0,0,2.1,58
+arterial,400,1,Smart Safe (blind),3.0,18.02,56.38,100.0,0,0,2.1,84
+balanced,600,2,Smart Safe (blind),0.5,5.8,14.98,100.0,0,0,2.1,25
+balanced,600,1,Smart Safe (blind),0.5,6.51,16.75,100.0,0,0,2.1,29
+arterial,600,2,Smart Safe (blind),0.5,6.22,15.29,100.0,0,0,2.1,27
+arterial,600,0,Smart Safe (blind),0.5,7.23,16.83,100.0,0,0,2.1,34
+balanced,600,4,Smart Safe (blind),0.5,5.52,15.31,100.0,0,0,2.1,17
+arterial,600,4,Smart Safe (blind),0.5,5.92,15.02,100.0,0,0,2.1,21
+arterial,600,3,Smart Safe (blind),0.5,6.28,12.86,100.0,0,0,2.1,30
+balanced,600,0,Smart Safe (blind),1.0,8.15,21.75,100.0,0,0,2.1,28
+balanced,600,3,Smart Safe (blind),0.5,8.62,18.78,100.0,0,0,2.1,40
+balanced,600,2,Smart Safe (blind),1.0,8.75,23.56,100.0,0,0,2.1,34
+balanced,600,1,Smart Safe (blind),1.0,10.15,29.38,100.0,0,0,2.1,45
+arterial,600,0,Smart Safe (blind),1.0,9.8,22.87,100.0,0,0,2.1,46
+arterial,600,2,Smart Safe (blind),1.0,8.46,23.85,100.0,0,0,2.1,32
+balanced,600,4,Smart Safe (blind),1.0,7.44,21.07,100.0,0,0,2.1,23
+arterial,600,1,Smart Safe (blind),0.5,11.13,30.06,100.0,0,0,2.1,90
+arterial,600,3,Smart Safe (blind),1.0,9.37,30.96,100.0,0,0,2.1,42
+arterial,600,4,Smart Safe (blind),1.0,7.81,20.42,100.0,0,0,2.1,27
+balanced,600,3,Smart Safe (blind),1.0,11.61,28.78,100.0,0,0,2.1,60
+balanced,600,0,Smart Safe (blind),2.0,16.01,43.27,100.0,0,0,2.1,70
+arterial,600,2,Smart Safe (blind),2.0,14.46,39.22,100.0,0,0,1.86,64
+balanced,600,2,Smart Safe (blind),2.0,16.8,50.85,100.0,0,0,2.1,73
+arterial,600,0,Smart Safe (blind),2.0,17.89,54.76,100.0,0,0,2.1,93
+arterial,600,1,Smart Safe (blind),1.0,16.26,57.36,100.0,0,0,2.1,135
+balanced,600,1,Smart Safe (blind),2.0,21.73,77.18,100.0,0,0,2.1,100
+balanced,600,4,Smart Safe (blind),2.0,13.78,32.11,100.0,0,0,2.1,43
+arterial,600,4,Smart Safe (blind),2.0,12.44,33.62,100.0,0,0,2.1,48
+arterial,600,3,Smart Safe (blind),2.0,21.85,92.19,100.0,0,0,2.1,105
+balanced,600,3,Smart Safe (blind),2.0,23.44,73.45,100.0,0,0,2.1,132
+arterial,600,2,Smart Safe (blind),3.0,24.11,78.47,100.0,0,0,2.1,109
+balanced,600,0,Smart Safe (blind),3.0,35.95,114.26,100.0,0,0,2.1,181
+balanced,600,2,Smart Safe (blind),3.0,32.73,138.1,100.0,0,0,2.1,157
+balanced,800,0,Signal,,9.4,21.59,100.0,0,0,2.5,4
+arterial,600,0,Smart Safe (blind),3.0,32.94,100.85,100.0,0,0,2.1,201
+balanced,800,0,Smart Safe (blind),0.0,2.92,11.93,100.0,0,0,1.86,22
+arterial,800,0,Signal,,10.47,31.57,100.0,0,0,1.97,6
+balanced,800,1,Signal,,12.06,28.31,100.0,0,0,1.81,5
+balanced,600,4,Smart Safe (blind),3.0,21.01,65.3,100.0,0,0,2.1,77
+arterial,800,1,Signal,,6.83,21.3,100.0,0,0,2.5,5
+balanced,600,1,Smart Safe (blind),3.0,53.89,189.37,100.0,0,0,2.1,236
+balanced,800,2,Signal,,14.4,36.12,100.0,0,0,1.81,10
+arterial,600,4,Smart Safe (blind),3.0,18.68,46.01,100.0,0,0,2.1,72
+arterial,800,0,Smart Safe (blind),0.0,8.1,27.51,100.0,0,0,1.81,47
+balanced,800,1,Smart Safe (blind),0.0,7.01,26.34,100.0,0,0,1.92,44
+balanced,600,3,Smart Safe (blind),3.0,37.79,136.46,100.0,0,0,2.1,213
+arterial,800,2,Signal,,13.74,37.97,100.0,0,0,1.81,11
+balanced,800,3,Signal,,8.7,18.51,100.0,0,0,2.5,3
+arterial,800,3,Signal,,8.2,25.57,100.0,0,0,2.3,4
+balanced,800,4,Signal,,10.01,24.16,100.0,0,0,1.81,4
+balanced,800,3,Smart Safe (blind),0.0,3.25,11.45,100.0,0,0,2.1,14
+arterial,800,4,Signal,,11.46,28.25,100.0,0,0,1.81,8
+arterial,800,1,Smart Safe (blind),0.0,6.96,22.98,100.0,0,0,2.1,51
+arterial,800,3,Smart Safe (blind),0.0,5.88,31.68,100.0,0,0,2.1,27
+balanced,800,2,Smart Safe (blind),0.0,9.43,28.56,100.0,0,0,2.1,66
+balanced,800,4,Smart Safe (blind),0.0,7.02,19.53,100.0,0,0,1.92,46
+arterial,800,2,Smart Safe (blind),0.0,9.42,22.11,100.0,0,0,2.1,78
+balanced,800,0,Smart Safe (blind),0.5,10.55,33.53,100.0,0,0,2.1,67
+arterial,800,1,Smart Safe (blind),0.5,13.18,43.47,100.0,0,0,2.5,79
+arterial,800,0,Smart Safe (blind),0.5,19.57,97.14,100.0,0,0,2.1,118
+arterial,600,3,Smart Safe (blind),3.0,49.78,188.27,100.0,0,0,2.1,345
+arterial,600,1,Smart Safe (blind),2.0,60.4,307.05,100.0,0,0,2.1,498
+arterial,800,4,Smart Safe (blind),0.0,17.44,81.19,100.0,0,0,2.1,131
+balanced,800,3,Smart Safe (blind),0.5,7.42,19.74,100.0,0,0,2.1,31
+balanced,800,1,Smart Safe (blind),0.5,15.24,63.03,100.0,0,0,2.1,118
+arterial,800,3,Smart Safe (blind),0.5,11.42,46.31,100.0,0,0,2.1,55
+balanced,800,2,Smart Safe (blind),0.5,22.91,125.68,100.0,0,0,2.1,187
+balanced,800,0,Smart Safe (blind),1.0,20.82,77.33,100.0,0,0,2.1,115
+balanced,800,4,Smart Safe (blind),0.5,17.3,59.57,100.0,0,0,2.1,122
+arterial,800,2,Smart Safe (blind),0.5,25.6,132.35,100.0,0,0,2.1,206
+arterial,800,1,Smart Safe (blind),1.0,21.07,76.01,100.0,0,0,2.1,113
+balanced,800,3,Smart Safe (blind),1.0,11.52,26.73,100.0,0,0,2.1,51
+arterial,800,0,Smart Safe (blind),1.0,30.07,136.62,100.0,0,0,2.1,173
+balanced,800,1,Smart Safe (blind),1.0,26.0,123.25,100.0,0,0,1.86,177
+arterial,800,3,Smart Safe (blind),1.0,17.25,84.91,100.0,0,0,2.1,84
+balanced,800,2,Smart Safe (blind),1.0,42.94,226.56,100.0,0,0,2.1,251
+arterial,600,1,Smart Safe (blind),3.0,112.17,410.4,100.0,0,0,2.1,780
+arterial,800,4,Smart Safe (blind),0.5,42.64,181.18,100.0,0,0,2.1,383
+arterial,800,2,Smart Safe (blind),1.0,42.07,157.72,100.0,0,0,2.1,281
+balanced,800,4,Smart Safe (blind),1.0,37.2,179.1,100.0,0,0,2.1,257
+balanced,800,0,Smart Safe (blind),2.0,53.95,296.3,100.0,0,0,2.1,329
+balanced,800,3,Smart Safe (blind),2.0,26.41,74.81,100.0,0,0,2.1,137
+arterial,800,3,Smart Safe (blind),2.0,30.39,135.98,100.0,0,0,2.1,140
+balanced,800,1,Smart Safe (blind),2.0,67.72,323.74,100.0,0,0,1.86,422
+arterial,800,0,Smart Safe (blind),2.0,80.83,322.3,100.0,0,0,2.1,526
+arterial,800,1,Smart Safe (blind),2.0,67.83,331.28,100.0,0,0,2.1,431
+arterial,800,4,Smart Safe (blind),1.0,78.96,313.42,100.0,0,0,2.1,657
+arterial,800,2,Smart Safe (blind),2.0,104.92,398.56,100.0,0,0,2.1,638
+balanced,800,4,Smart Safe (blind),2.0,102.67,354.93,100.0,0,0,2.1,641
+balanced,800,2,Smart Safe (blind),2.0,108.97,417.82,100.0,0,0,2.1,867
+arterial,400,0,Smart Safe (blind),stop,2.23,7.1,100.0,0,0,2.5,12
+balanced,400,0,Smart Safe (blind),stop,2.96,8.05,100.0,0,0,2.1,16
+balanced,1000,0,Signal,,12.89,37.79,100.0,0,0,1.81,18
+balanced,600,0,Smart Safe (blind),stop,4.11,13.15,100.0,0,0,2.1,32
+arterial,1000,0,Signal,,13.66,36.11,100.0,0,0,1.86,24
+balanced,1200,0,Signal,,36.69,90.92,100.0,0,0,1.81,49
+arterial,600,0,Smart Safe (blind),stop,5.22,13.57,100.0,0,0,2.1,55
+balanced,400,1,Smart Safe (blind),stop,3.33,9.31,100.0,0,0,2.1,14
+arterial,1200,0,Signal,,26.47,72.88,100.0,0,0,1.81,36
+balanced,800,0,Smart Safe (blind),stop,5.8,17.1,100.0,0,0,2.1,80
+balanced,1000,1,Signal,,11.76,30.8,100.0,0,0,1.86,18
+balanced,600,1,Smart Safe (blind),stop,4.66,12.09,100.0,0,0,2.1,44
+balanced,1200,1,Signal,,42.14,122.16,100.0,0,0,1.86,41
+arterial,400,1,Smart Safe (blind),stop,3.03,9.43,100.0,0,0,2.1,28
+arterial,800,0,Smart Safe (blind),stop,12.17,55.32,100.0,0,0,2.1,145
+balanced,800,1,Smart Safe (blind),stop,8.78,28.1,100.0,0,0,1.97,112
+arterial,1000,1,Signal,,9.18,28.49,100.0,0,0,2.5,18
+balanced,1000,0,Smart Safe (blind),0.0,15.95,44.19,100.0,0,0,1.86,210
+arterial,1200,1,Signal,,23.82,67.61,100.0,0,0,1.81,39
+balanced,1000,1,Smart Safe (blind),0.0,10.97,32.94,100.0,0,0,2.1,173
+balanced,400,2,Smart Safe (blind),stop,3.04,9.2,100.0,0,0,2.1,12
+arterial,800,1,Smart Safe (blind),stop,9.19,24.55,100.0,0,0,2.1,120
+arterial,600,1,Smart Safe (blind),stop,7.56,22.12,100.0,0,0,2.1,133
+balanced,600,2,Smart Safe (blind),stop,4.28,11.74,100.0,0,0,2.1,37
+balanced,1000,2,Signal,,17.38,43.28,100.0,0,0,1.86,19
+balanced,1200,2,Signal,,18.2,47.71,100.0,0,0,1.81,24
+balanced,800,2,Smart Safe (blind),stop,13.67,45.81,100.0,0,0,2.1,178
+arterial,400,2,Smart Safe (blind),stop,2.44,6.26,100.0,0,0,2.1,9
+arterial,1000,1,Smart Safe (blind),0.0,17.23,84.81,100.0,0,0,2.1,297
+arterial,1000,0,Smart Safe (blind),0.0,30.24,156.08,100.0,0,0,1.97,473
+arterial,600,2,Smart Safe (blind),stop,4.26,13.19,100.0,0,0,2.1,38
+arterial,1000,2,Signal,,12.35,36.53,100.0,0,0,2.5,16
+arterial,1200,2,Signal,,41.57,149.98,100.0,0,0,1.81,42
+arterial,1000,2,Smart Safe (blind),0.0,9.94,37.6,100.0,0,0,2.1,117
+balanced,400,3,Smart Safe (blind),stop,3.65,10.24,100.0,0,0,2.1,956
+arterial,800,2,Smart Safe (blind),stop,12.37,33.4,100.0,0,0,2.1,1105
+balanced,600,3,Smart Safe (blind),stop,4.75,10.58,100.0,0,0,2.1,367
+balanced,1000,3,Signal,,12.52,33.0,100.0,0,0,1.81,18
+balanced,800,3,Smart Safe (blind),stop,5.25,11.73,100.0,0,0,1.86,369
+balanced,1200,3,Signal,,29.43,64.97,100.0,0,0,1.81,40
+balanced,1000,2,Smart Safe (blind),0.0,31.06,150.7,100.0,0,0,1.81,1709
+arterial,400,3,Smart Safe (blind),stop,3.49,8.48,100.0,0,0,2.1,5
+balanced,1000,3,Smart Safe (blind),0.0,8.86,23.75,100.0,0,0,2.1,73
+arterial,600,3,Smart Safe (blind),stop,4.24,11.41,100.0,0,0,2.5,16
+arterial,1000,3,Signal,,11.02,28.59,100.0,0,0,1.97,7
+arterial,800,3,Smart Safe (blind),stop,8.0,36.61,100.0,0,0,2.1,31
+balanced,1200,2,Smart Safe (blind),0.0,34.89,157.34,100.0,0,0,1.86,1743
+arterial,1200,3,Signal,,17.74,54.9,100.0,0,0,1.86,11
+balanced,400,4,Smart Safe (blind),stop,3.42,11.06,100.0,0,0,2.1,10
+arterial,1000,3,Smart Safe (blind),0.0,9.57,26.61,100.0,0,0,2.1,55
+balanced,600,4,Smart Safe (blind),stop,4.09,12.97,100.0,0,0,2.1,12
+balanced,1000,4,Signal,,11.2,33.02,100.0,0,0,2.5,5
+balanced,800,4,Smart Safe (blind),stop,9.42,26.23,100.0,0,0,2.1,61
+balanced,1200,4,Signal,,32.62,122.21,100.0,0,0,1.81,13
+balanced,1000,4,Smart Safe (blind),0.0,11.95,41.43,100.0,0,0,1.81,85
+arterial,400,4,Smart Safe (blind),stop,3.91,11.76,100.0,0,0,2.1,14
+arterial,600,4,Smart Safe (blind),stop,4.44,11.39,100.0,0,0,2.1,19
+arterial,800,4,Smart Safe (blind),stop,16.89,62.4,100.0,0,0,2.1,151
+arterial,1000,4,Signal,,15.62,42.77,100.0,0,0,1.81,15
+arterial,1200,0,Smart Safe (blind),0.0,75.45,280.66,100.0,0,0,1.86,2373
+arterial,1200,1,Smart Safe (blind),0.0,76.05,353.58,100.0,0,0,1.97,2171
+arterial,1200,4,Signal,,39.34,157.25,100.0,0,0,1.81,19
+balanced,1200,1,Smart Safe (blind),0.0,81.27,338.57,100.0,0,0,1.86,2363
+arterial,1200,2,Smart Safe (blind),0.0,74.4,280.61,100.0,0,0,1.86,1923
+balanced,1200,0,Smart Safe (blind),0.0,81.31,290.2,100.0,0,0,1.86,2543

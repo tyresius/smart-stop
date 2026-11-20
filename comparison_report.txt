@@ -1,0 +1,92 @@
+
+==========================================================================================
+ALGORITHM COMPARISON SUMMARY REPORT
+==========================================================================================
+Timestamp: 2025-11-25 11:32:50
+Geometry: 4way
+Total Scenarios: 6
+
+WINS BY ALGORITHM:
+  Smart Stop             5 wins ( 83.3%)
+  Roundabout             1 wins ( 16.7%)
+
+------------------------------------------------------------------------------------------
+DETAILED SCENARIO RESULTS:
+------------------------------------------------------------------------------------------
+
+
+S1: Simple Straight
+  Description: Two vehicles, same road, straight through
+  Vehicles: 2
+
+  Algorithm            Time (s)     Wait (s)     Throughput  
+  --------------------------------------------------------
+    Roundabout         7.80         1.95         0.256       
+    Smart Safe         8.10         2.10         0.247       
+  ★ Smart Stop         7.60         1.85         0.263       
+    Traditional        9.90         2.55         0.202       
+
+S2: Perpendicular Crossing
+  Description: Two vehicles crossing perpendicular at intersection
+  Vehicles: 2
+
+  Algorithm            Time (s)     Wait (s)     Throughput  
+  --------------------------------------------------------
+    Roundabout         8.10         2.10         0.247       
+    Smart Safe         8.10         2.10         0.247       
+  ★ Smart Stop         7.70         1.90         0.260       
+    Traditional        9.90         2.55         0.202       
+
+S3: Right Turns
+  Description: Multiple right turns from different approaches
+  Vehicles: 3
+
+  Algorithm            Time (s)     Wait (s)     Throughput  
+  --------------------------------------------------------
+    Roundabout         6.80         1.27         0.441       
+    Smart Safe         10.00        3.40         0.300       
+  ★ Smart Stop         6.70         1.20         0.448       
+    Traditional        11.20        3.80         0.268       
+
+S4: Mixed Turns
+  Description: Mix of left turns, right turns, and straight
+  Vehicles: 4
+
+  Algorithm            Time (s)     Wait (s)     Throughput  
+  --------------------------------------------------------
+    Roundabout         8.60         2.20         0.465       
+    Smart Safe         15.10        5.77         0.265       
+  ★ Smart Stop         8.50         2.00         0.471       
+    Traditional        18.10        6.95         0.221       
+
+S5: Backward Priority
+  Description: Tests Smart Stop backward priority advantage
+  Vehicles: 4
+
+  Algorithm            Time (s)     Wait (s)     Throughput  
+  --------------------------------------------------------
+  ★ Roundabout         7.80         1.80         0.513       
+    Smart Safe         15.10        5.60         0.265       
+    Smart Stop         7.80         1.75         0.513       
+    Traditional        18.10        6.65         0.221       
+
+S6: Complex Real-World
+  Description: Full intersection with 6 vehicles
+  Vehicles: 6
+
+  Algorithm            Time (s)     Wait (s)     Throughput  
+  --------------------------------------------------------
+    Roundabout         16.80        5.60         0.357       
+    Smart Safe         25.50        9.95         0.235       
+  ★ Smart Stop         15.70        4.93         0.382       
+    Traditional        32.30        12.22        0.186       
+
+==========================================================================================
+EFFICIENCY ANALYSIS (vs Traditional Stop):
+==========================================================================================
+
+Smart Stop vs Traditional:  +45.7% (avg 9.00s vs 16.58s)
+Roundabout vs Traditional:  +43.8% (avg 9.32s vs 16.58s)
+Smart Safe vs Traditional:  +17.7% (avg 13.65s vs 16.58s)
+
+==========================================================================================

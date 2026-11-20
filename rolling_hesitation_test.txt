@@ -1,0 +1,142 @@
+ROLLING + HESITATION FACTORIAL (BlindSafeV2, tangent headings; 10 seeds per cell)
+Delay = control_delay_sp (stops charged), mean seconds per car.
+
+1. SAFETY (independent checker): contacts between moving cars / moving vs waiting car
+  Safe H=0 rolling                    0 /    0   closest moving pair 1.24 m
+  Safe H=0 full stop                  0 /    0   closest moving pair 1.80 m
+  Safe H=0.5 rolling +widen           0 /    0   closest moving pair 1.79 m
+  Safe H=0.5 rolling no-widen         0 /    0   closest moving pair 1.79 m
+  Safe H=0.5 full stop +widen         0 /    0   closest moving pair 1.80 m
+  Safe H=0.5 full stop no-widen       0 /    0   closest moving pair 1.80 m
+  Safe H=1 rolling +widen             0 /    0   closest moving pair 1.79 m
+  Safe H=1 rolling no-widen           0 /    0   closest moving pair 1.79 m
+  Safe H=1 full stop +widen           0 /    0   closest moving pair 1.80 m
+  Safe H=1 full stop no-widen         0 /    0   closest moving pair 1.80 m
+  Signal                              0 /    0   closest moving pair 0.69 m
+  Stop sign                           0 /    0   closest moving pair 0.57 m
+
+2. MEAN DELAY (s) and share of cars that stopped
+  balanced:
+    condition                                    400             600             800
+    Safe H=0 rolling                     2.8  ( 36%)     4.4  ( 53%)     8.8  ( 73%)
+    Safe H=0 full stop                   6.3  (100%)     7.7  (100%)    12.1  (100%)
+    Safe H=0.5 rolling +widen            3.7  ( 41%)     6.3  ( 60%)    13.3  ( 83%)
+    Safe H=0.5 rolling no-widen          3.7  ( 41%)     6.3  ( 60%)    13.3  ( 83%)
+    Safe H=0.5 full stop +widen          7.3  (100%)    10.0  (100%)    16.8  (100%)
+    Safe H=0.5 full stop no-widen        7.3  (100%)    10.0  (100%)    16.8  (100%)
+    Safe H=1 rolling +widen              4.8  ( 46%)     9.0  ( 71%)    22.1  ( 90%)
+    Safe H=1 rolling no-widen            4.8  ( 46%)     9.0  ( 71%)    22.1  ( 90%)
+    Safe H=1 full stop +widen            8.6  (100%)    12.2  (100%)    25.8  (100%)
+    Safe H=1 full stop no-widen          8.6  (100%)    12.2  (100%)    25.8  (100%)
+    Signal                               8.4  ( 70%)    10.6  ( 78%)    13.6  ( 84%)
+    Stop sign                            5.9  (100%)     7.3  (100%)    11.9  (100%)
+
+  arterial:
+    condition                                    400             600             800
+    Safe H=0 rolling                     1.9  ( 28%)     4.4  ( 51%)     9.8  ( 72%)
+    Safe H=0 full stop                   5.8  (100%)     8.0  (100%)    13.7  (100%)
+    Safe H=0.5 rolling +widen            3.0  ( 36%)     6.4  ( 60%)    17.1  ( 83%)
+    Safe H=0.5 rolling no-widen          3.0  ( 36%)     6.4  ( 60%)    17.1  ( 83%)
+    Safe H=0.5 full stop +widen          7.0  (100%)    10.0  (100%)    21.0  (100%)
+    Safe H=0.5 full stop no-widen        7.0  (100%)    10.0  (100%)    21.0  (100%)
+    Safe H=1 rolling +widen              4.7  ( 45%)     9.4  ( 72%)    27.7  ( 90%)
+    Safe H=1 rolling no-widen            4.7  ( 45%)     9.4  ( 72%)    27.7  ( 90%)
+    Safe H=1 full stop +widen            8.2  (100%)    12.6  (100%)    29.8  (100%)
+    Safe H=1 full stop no-widen          8.2  (100%)    12.6  (100%)    29.8  (100%)
+    Signal                               6.4  ( 56%)     8.9  ( 69%)    11.1  ( 74%)
+    Stop sign                            5.5  (100%)     6.9  (100%)    11.8  (100%)
+
+  ! = not admissible (a contact between moving cars or with a waiting car)
+
+3. VERSUS THE STOP SIGN AND THE SIGNAL (paired, mean [95% CI]; negative = Smart Safe lower)
+  balanced 400 veh/h:
+    Safe H=0 rolling                 vs stop sign  -3.1 [ -3.5, -2.7] LOWER   vs signal     -5.6 [ -6.8, -4.4] LOWER 
+    Safe H=0 full stop               vs stop sign  +0.4 [ +0.1, +0.6] higher  vs signal     -2.1 [ -3.2, -1.0] LOWER 
+    Safe H=0.5 rolling +widen        vs stop sign  -2.2 [ -2.6, -1.8] LOWER   vs signal     -4.7 [ -5.8, -3.6] LOWER 
+    Safe H=0.5 rolling no-widen      vs stop sign  -2.2 [ -2.6, -1.8] LOWER   vs signal     -4.7 [ -5.8, -3.6] LOWER 
+    Safe H=0.5 full stop +widen      vs stop sign  +1.4 [ +1.2, +1.7] higher  vs signal     -1.1 [ -2.2, +0.0] n.r.  
+    Safe H=0.5 full stop no-widen    vs stop sign  +1.4 [ +1.2, +1.7] higher  vs signal     -1.1 [ -2.2, +0.0] n.r.  
+    Safe H=1 rolling +widen          vs stop sign  -1.0 [ -1.6, -0.5] LOWER   vs signal     -3.6 [ -4.8, -2.3] LOWER 
+    Safe H=1 rolling no-widen        vs stop sign  -1.0 [ -1.6, -0.5] LOWER   vs signal     -3.6 [ -4.8, -2.3] LOWER 
+    Safe H=1 full stop +widen        vs stop sign  +2.7 [ +2.3, +3.1] higher  vs signal     +0.2 [ -1.0, +1.4] n.r.  
+    Safe H=1 full stop no-widen      vs stop sign  +2.7 [ +2.3, +3.1] higher  vs signal     +0.2 [ -1.0, +1.4] n.r.  
+  balanced 600 veh/h:
+    Safe H=0 rolling                 vs stop sign  -2.9 [ -3.3, -2.5] LOWER   vs signal     -6.2 [ -7.3, -5.1] LOWER 
+    Safe H=0 full stop               vs stop sign  +0.5 [ +0.1, +0.8] higher  vs signal     -2.9 [ -3.8, -1.9] LOWER 
+    Safe H=0.5 rolling +widen        vs stop sign  -1.0 [ -1.6, -0.4] LOWER   vs signal     -4.3 [ -5.5, -3.2] LOWER 
+    Safe H=0.5 rolling no-widen      vs stop sign  -1.0 [ -1.6, -0.4] LOWER   vs signal     -4.3 [ -5.5, -3.2] LOWER 
+    Safe H=0.5 full stop +widen      vs stop sign  +2.7 [ +2.1, +3.3] higher  vs signal     -0.6 [ -1.8, +0.5] n.r.  
+    Safe H=0.5 full stop no-widen    vs stop sign  +2.7 [ +2.1, +3.3] higher  vs signal     -0.6 [ -1.8, +0.5] n.r.  
+    Safe H=1 rolling +widen          vs stop sign  +1.7 [ +0.7, +2.7] higher  vs signal     -1.6 [ -2.9, -0.3] LOWER 
+    Safe H=1 rolling no-widen        vs stop sign  +1.7 [ +0.7, +2.7] higher  vs signal     -1.6 [ -2.9, -0.3] LOWER 
+    Safe H=1 full stop +widen        vs stop sign  +4.9 [ +4.1, +5.7] higher  vs signal     +1.6 [ +0.5, +2.6] higher
+    Safe H=1 full stop no-widen      vs stop sign  +4.9 [ +4.1, +5.7] higher  vs signal     +1.6 [ +0.5, +2.6] higher
+  balanced 800 veh/h:
+    Safe H=0 rolling                 vs stop sign  -3.1 [ -4.3, -1.8] LOWER   vs signal     -4.8 [ -6.2, -3.4] LOWER 
+    Safe H=0 full stop               vs stop sign  +0.2 [ -0.9, +1.4] n.r.    vs signal     -1.5 [ -2.6, -0.4] LOWER 
+    Safe H=0.5 rolling +widen        vs stop sign  +1.4 [ -0.3, +3.1] n.r.    vs signal     -0.3 [ -2.4, +1.8] n.r.  
+    Safe H=0.5 rolling no-widen      vs stop sign  +1.4 [ -0.3, +3.1] n.r.    vs signal     -0.3 [ -2.4, +1.8] n.r.  
+    Safe H=0.5 full stop +widen      vs stop sign  +5.0 [ +3.6, +6.3] higher  vs signal     +3.3 [ +1.2, +5.3] higher
+    Safe H=0.5 full stop no-widen    vs stop sign  +5.0 [ +3.6, +6.3] higher  vs signal     +3.3 [ +1.2, +5.3] higher
+    Safe H=1 rolling +widen          vs stop sign +10.2 [ +6.2,+14.2] higher  vs signal     +8.5 [ +3.6,+13.4] higher
+    Safe H=1 rolling no-widen        vs stop sign +10.2 [ +6.2,+14.2] higher  vs signal     +8.5 [ +3.6,+13.4] higher
+    Safe H=1 full stop +widen        vs stop sign +13.9 [ +9.6,+18.2] higher  vs signal    +12.2 [ +7.0,+17.3] higher
+    Safe H=1 full stop no-widen      vs stop sign +13.9 [ +9.6,+18.2] higher  vs signal    +12.2 [ +7.0,+17.3] higher
+
+  arterial 400 veh/h:
+    Safe H=0 rolling                 vs stop sign  -3.6 [ -3.8, -3.3] LOWER   vs signal     -4.5 [ -5.1, -3.8] LOWER 
+    Safe H=0 full stop               vs stop sign  +0.3 [ +0.2, +0.4] higher  vs signal     -0.6 [ -1.4, +0.2] n.r.  
+    Safe H=0.5 rolling +widen        vs stop sign  -2.5 [ -2.8, -2.2] LOWER   vs signal     -3.4 [ -4.3, -2.5] LOWER 
+    Safe H=0.5 rolling no-widen      vs stop sign  -2.5 [ -2.8, -2.2] LOWER   vs signal     -3.4 [ -4.3, -2.5] LOWER 
+    Safe H=0.5 full stop +widen      vs stop sign  +1.5 [ +1.2, +1.7] higher  vs signal     +0.6 [ -0.3, +1.4] n.r.  
+    Safe H=0.5 full stop no-widen    vs stop sign  +1.5 [ +1.2, +1.7] higher  vs signal     +0.6 [ -0.3, +1.4] n.r.  
+    Safe H=1 rolling +widen          vs stop sign  -0.8 [ -1.7, +0.0] n.r.    vs signal     -1.7 [ -3.1, -0.4] LOWER 
+    Safe H=1 rolling no-widen        vs stop sign  -0.8 [ -1.7, +0.0] n.r.    vs signal     -1.7 [ -3.1, -0.4] LOWER 
+    Safe H=1 full stop +widen        vs stop sign  +2.7 [ +2.2, +3.1] higher  vs signal     +1.7 [ +0.7, +2.7] higher
+    Safe H=1 full stop no-widen      vs stop sign  +2.7 [ +2.2, +3.1] higher  vs signal     +1.7 [ +0.7, +2.7] higher
+  arterial 600 veh/h:
+    Safe H=0 rolling                 vs stop sign  -2.6 [ -3.1, -2.1] LOWER   vs signal     -4.6 [ -5.4, -3.7] LOWER 
+    Safe H=0 full stop               vs stop sign  +1.0 [ +0.6, +1.4] higher  vs signal     -1.0 [ -1.9, -0.1] LOWER 
+    Safe H=0.5 rolling +widen        vs stop sign  -0.5 [ -1.3, +0.3] n.r.    vs signal     -2.5 [ -3.5, -1.5] LOWER 
+    Safe H=0.5 rolling no-widen      vs stop sign  -0.5 [ -1.3, +0.3] n.r.    vs signal     -2.5 [ -3.5, -1.5] LOWER 
+    Safe H=0.5 full stop +widen      vs stop sign  +3.1 [ +2.2, +3.9] higher  vs signal     +1.1 [ -0.1, +2.3] n.r.  
+    Safe H=0.5 full stop no-widen    vs stop sign  +3.1 [ +2.2, +3.9] higher  vs signal     +1.1 [ -0.1, +2.3] n.r.  
+    Safe H=1 rolling +widen          vs stop sign  +2.5 [ +1.2, +3.7] higher  vs signal     +0.5 [ -0.8, +1.8] n.r.  
+    Safe H=1 rolling no-widen        vs stop sign  +2.5 [ +1.2, +3.7] higher  vs signal     +0.5 [ -0.8, +1.8] n.r.  
+    Safe H=1 full stop +widen        vs stop sign  +5.6 [ +3.9, +7.4] higher  vs signal     +3.6 [ +1.9, +5.4] higher
+    Safe H=1 full stop no-widen      vs stop sign  +5.6 [ +3.9, +7.4] higher  vs signal     +3.6 [ +1.9, +5.4] higher
+  arterial 800 veh/h:
+    Safe H=0 rolling                 vs stop sign  -2.1 [ -3.8, -0.3] LOWER   vs signal     -1.3 [ -3.4, +0.7] n.r.  
+    Safe H=0 full stop               vs stop sign  +1.8 [ +0.4, +3.3] higher  vs signal     +2.6 [ +0.5, +4.7] higher
+    Safe H=0.5 rolling +widen        vs stop sign  +5.3 [ +1.3, +9.2] higher  vs signal     +6.0 [ +1.7,+10.3] higher
+    Safe H=0.5 rolling no-widen      vs stop sign  +5.3 [ +1.3, +9.2] higher  vs signal     +6.0 [ +1.7,+10.3] higher
+    Safe H=0.5 full stop +widen      vs stop sign  +9.2 [ +3.9,+14.5] higher  vs signal    +10.0 [ +4.4,+15.5] higher
+    Safe H=0.5 full stop no-widen    vs stop sign  +9.2 [ +3.9,+14.5] higher  vs signal    +10.0 [ +4.4,+15.5] higher
+    Safe H=1 rolling +widen          vs stop sign +15.9 [ +5.7,+26.0] higher  vs signal    +16.6 [ +6.3,+26.9] higher
+    Safe H=1 rolling no-widen        vs stop sign +15.9 [ +5.7,+26.0] higher  vs signal    +16.6 [ +6.3,+26.9] higher
+    Safe H=1 full stop +widen        vs stop sign +18.0 [ +8.9,+27.1] higher  vs signal    +18.7 [ +9.4,+28.0] higher
+    Safe H=1 full stop no-widen      vs stop sign +18.0 [ +8.9,+27.1] higher  vs signal    +18.7 [ +9.4,+28.0] higher
+
+4. ANSWERS (reading rules 2 and 3 in the docstring)
+  H=0.5 rolling: widening is NOT needed for safety in these runs (no-widen arm admissible)
+  H=0.5 full stop: widening is NOT needed for safety in these runs (no-widen arm admissible)
+  H=1 rolling: widening is NOT needed for safety in these runs (no-widen arm admissible)
+  H=1 full stop: widening is NOT needed for safety in these runs (no-widen arm admissible)
+  H=0 balanced  400: rolling KEEPS its edge vs the stop sign (-3.1 s [-3.5,-2.7], best admissible arm: Safe H=0 rolling)
+  H=0 balanced  600: rolling KEEPS its edge vs the stop sign (-2.9 s [-3.3,-2.5], best admissible arm: Safe H=0 rolling)
+  H=0 balanced  800: rolling KEEPS its edge vs the stop sign (-3.1 s [-4.3,-1.8], best admissible arm: Safe H=0 rolling)
+  H=0 arterial  400: rolling KEEPS its edge vs the stop sign (-3.6 s [-3.8,-3.3], best admissible arm: Safe H=0 rolling)
+  H=0 arterial  600: rolling KEEPS its edge vs the stop sign (-2.6 s [-3.1,-2.1], best admissible arm: Safe H=0 rolling)
+  H=0 arterial  800: rolling KEEPS its edge vs the stop sign (-2.1 s [-3.8,-0.3], best admissible arm: Safe H=0 rolling)
+  H=0.5 balanced  400: rolling KEEPS its edge vs the stop sign (-2.2 s [-2.6,-1.8], best admissible arm: Safe H=0.5 rolling +widen)
+  H=0.5 balanced  600: rolling KEEPS its edge vs the stop sign (-1.0 s [-1.6,-0.4], best admissible arm: Safe H=0.5 rolling +widen)
+  H=0.5 balanced  800: rolling no resolved edge vs the stop sign (+1.4 s [-0.3,+3.1], best admissible arm: Safe H=0.5 rolling +widen)
+  H=0.5 arterial  400: rolling KEEPS its edge vs the stop sign (-2.5 s [-2.8,-2.2], best admissible arm: Safe H=0.5 rolling +widen)
+  H=0.5 arterial  600: rolling no resolved edge vs the stop sign (-0.5 s [-1.3,+0.3], best admissible arm: Safe H=0.5 rolling +widen)
+  H=0.5 arterial  800: rolling LOSES to the stop sign vs the stop sign (+5.3 s [+1.3,+9.2], best admissible arm: Safe H=0.5 rolling +widen)
+  H=1 balanced  400: rolling KEEPS its edge vs the stop sign (-1.0 s [-1.6,-0.5], best admissible arm: Safe H=1 rolling +widen)
+  H=1 balanced  600: rolling LOSES to the stop sign vs the stop sign (+1.7 s [+0.7,+2.7], best admissible arm: Safe H=1 rolling +widen)
+  H=1 balanced  800: rolling LOSES to the stop sign vs the stop sign (+10.2 s [+6.2,+14.2], best admissible arm: Safe H=1 rolling +widen)
+  H=1 arterial  400: rolling no resolved edge vs the stop sign (-0.8 s [-1.7,+0.0], best admissible arm: Safe H=1 rolling +widen)
+  H=1 arterial  600: rolling LOSES to the stop sign vs the stop sign (+2.5 s [+1.2,+3.7], best admissible arm: Safe H=1 rolling +widen)
+  H=1 arterial  800: rolling LOSES to the stop sign vs the stop sign (+15.9 s [+5.7,+26.0], best admissible arm: Safe H=1 rolling +widen)

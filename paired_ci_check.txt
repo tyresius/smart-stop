@@ -1,0 +1,36 @@
+Smart Safe (blind) minus Signal, mean control delay (s), paired by seed
+split     veh/h  condition  n  mean diff             95% CI  result
+balanced    400  H=0        5       -4.9  [  -6.3,   -3.4]  Safe wins
+balanced    400  full stop  5       -2.8  [  -4.3,   -1.4]  Safe wins
+balanced    400  H=0.5      5       -1.7  [  -3.2,   -0.2]  Safe wins
+balanced    400  H=1        5       -0.5  [  -2.0,   +1.0]  not resolved
+balanced    400  H=2        5       +2.6  [  +0.4,   +4.8]  Safe loses
+balanced    600  H=0        5       -6.3  [  -8.3,   -4.3]  Safe wins
+balanced    600  full stop  5       -4.3  [  -6.0,   -2.6]  Safe wins
+balanced    600  H=0.5      5       -2.3  [  -4.6,   +0.0]  not resolved
+balanced    600  H=1        5       +0.5  [  -1.7,   +2.8]  not resolved
+balanced    600  H=2        5       +9.7  [  +5.0,  +14.3]  Safe loses
+balanced    800  H=0        5       -5.0  [  -6.6,   -3.4]  Safe wins
+balanced    800  full stop  5       -2.3  [  -4.2,   -0.4]  Safe wins
+balanced    800  H=0.5      5       +3.8  [  -1.3,   +8.9]  not resolved
+balanced    800  H=1        5      +16.8  [  +3.2,  +30.4]  Safe loses
+balanced    800  H=2        5      +61.0  [ +20.3, +101.7]  Safe loses
+balanced   1000  H=0        5       +2.6  [  -5.7,  +10.9]  not resolved
+balanced   1200  H=0        3      +33.5  [  -3.3,  +70.2]  not resolved
+arterial    400  H=0        5       -3.5  [  -4.6,   -2.4]  Safe wins
+arterial    400  full stop  5       -1.6  [  -2.9,   -0.2]  Safe wins
+arterial    400  H=0.5      5       -0.4  [  -1.9,   +1.1]  not resolved
+arterial    400  H=1        5       +0.7  [  -1.0,   +2.5]  not resolved
+arterial    400  H=2        5       +3.7  [  +1.6,   +5.9]  Safe loses
+arterial    600  H=0        5       -4.1  [  -5.4,   -2.9]  Safe wins
+arterial    600  full stop  5       -1.4  [  -2.8,   -0.0]  Safe wins
+arterial    600  H=0.5      5       +0.8  [  -1.0,   +2.6]  not resolved
+arterial    600  H=1        5       +3.8  [  +0.7,   +6.9]  Safe loses
+arterial    600  H=2        5      +18.9  [  -4.6,  +42.3]  not resolved
+arterial    800  H=0        5       -0.6  [  -5.5,   +4.4]  not resolved
+arterial    800  full stop  5       +1.6  [  -1.7,   +4.8]  not resolved
+arterial    800  H=0.5      5      +12.3  [  -1.3,  +26.0]  not resolved
+arterial    800  H=1        5      +27.7  [  -1.2,  +56.7]  not resolved
+arterial    800  H=2        4      +61.2  [ +15.2, +107.2]  Safe loses
+arterial   1000  H=0        4       +5.2  [  -9.0,  +19.4]  not resolved
+arterial   1200  H=0        3      +44.7  [ +18.9,  +70.5]  Safe loses

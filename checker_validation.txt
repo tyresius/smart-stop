@@ -1,0 +1,28 @@
+CHECKER VALIDATION SUMMARY
+
+A. Legacy re-check (committed cells, H=0, secant headings)
+  Signal             arterial    800 n=5 delay   10.1s | contacts moving-moving 0 (min gap 0.765), moving-vs-waiting cross 0 (min 0.071), same-lane queue 331, old observer 0 | reproduces committed delays: yes (5 of 5 seeds have a committed run)
+  Signal             arterial   1000 n=5 delay   12.4s | contacts moving-moving 0 (min gap 0.765), moving-vs-waiting cross 0 (min 0.071), same-lane queue 462, old observer 0 | reproduces committed delays: yes (5 of 5 seeds have a committed run)
+  Signal             balanced    800 n=5 delay   10.9s | contacts moving-moving 0 (min gap 0.765), moving-vs-waiting cross 0 (min 0.071), same-lane queue 280, old observer 0 | reproduces committed delays: yes (5 of 5 seeds have a committed run)
+  Signal             balanced   1000 n=5 delay   13.2s | contacts moving-moving 0 (min gap 0.765), moving-vs-waiting cross 0 (min 0.071), same-lane queue 431, old observer 0 | reproduces committed delays: yes (5 of 5 seeds have a committed run)
+  Smart Safe (blind) arterial    800 n=5 delay    9.6s | contacts moving-moving 0 (min gap 0.576), moving-vs-waiting cross 0 (min 0.071), same-lane queue 301, old observer 0 | reproduces committed delays: yes (5 of 5 seeds have a committed run)
+  Smart Safe (blind) arterial   1000 n=5 delay   18.1s | contacts moving-moving 0 (min gap 0.576), moving-vs-waiting cross 0 (min 0.071), same-lane queue 520, old observer 0 | reproduces committed delays: yes (4 of 5 seeds have a committed run)
+  Smart Safe (blind) balanced    800 n=5 delay    5.9s | contacts moving-moving 0 (min gap 0.576), moving-vs-waiting cross 0 (min 0.071), same-lane queue 186, old observer 0 | reproduces committed delays: yes (5 of 5 seeds have a committed run)
+  Smart Safe (blind) balanced   1000 n=5 delay   15.8s | contacts moving-moving 0 (min gap 0.576), moving-vs-waiting cross 0 (min 0.071), same-lane queue 423, old observer 0 | reproduces committed delays: yes (5 of 5 seeds have a committed run)
+
+B. V2 smoke (2 seeds, tangent headings) - not a result
+  Signal             arterial    800 n=2 delay    8.7s | contacts moving-moving 0 (min gap 0.763), moving-vs-waiting cross 0 (min 0.071), same-lane queue 107, old observer 0
+  Signal             arterial   1000 n=2 delay   11.6s | contacts moving-moving 0 (min gap 0.763), moving-vs-waiting cross 0 (min 0.071), same-lane queue 190, old observer 0
+  Signal             balanced    800 n=2 delay   10.5s | contacts moving-moving 0 (min gap 0.763), moving-vs-waiting cross 0 (min 0.071), same-lane queue 109, old observer 0
+  Signal             balanced   1000 n=2 delay   12.4s | contacts moving-moving 0 (min gap 0.763), moving-vs-waiting cross 0 (min 0.071), same-lane queue 177, old observer 0
+  Smart Safe V2      arterial    800 n=2 delay    8.1s | contacts moving-moving 0 (min gap 1.787), moving-vs-waiting cross 0 (min 0.071), same-lane queue 104, old observer 0
+  Smart Safe V2      arterial   1000 n=2 delay   20.6s | contacts moving-moving 0 (min gap 1.787), moving-vs-waiting cross 0 (min 0.071), same-lane queue 234, old observer 0
+  Smart Safe V2      balanced    800 n=2 delay    4.8s | contacts moving-moving 0 (min gap 1.787), moving-vs-waiting cross 0 (min 0.071), same-lane queue 63, old observer 0
+  Smart Safe V2      balanced   1000 n=2 delay   13.2s | contacts moving-moving 0 (min gap 1.801), moving-vs-waiting cross 0 (min 0.071), same-lane queue 170, old observer 0
+
+C. All-way stop, 600 veh/h
+  AWSC FCFS          arterial    600 n=5 delay    4.1s | contacts moving-moving 0 (min gap 0.575), moving-vs-waiting cross 0 (min 0.071), same-lane queue 177, old observer 0
+  AWSC FCFS          balanced    600 n=5 delay    4.5s | contacts moving-moving 0 (min gap 0.575), moving-vs-waiting cross 0 (min 0.071), same-lane queue 114, old observer 0
+  AWSC legacy        arterial    600 n=5 delay   26.8s | contacts moving-moving 0 (min gap 1.149), moving-vs-waiting cross 0 (min 0.071), same-lane queue 317, old observer 0
+  AWSC legacy        balanced    600 n=5 delay   17.1s | contacts moving-moving 0 (min gap 1.164), moving-vs-waiting cross 0 (min 0.071), same-lane queue 215, old observer 0
+

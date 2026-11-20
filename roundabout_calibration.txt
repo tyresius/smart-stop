@@ -1,0 +1,11 @@
+ROUNDABOUT ENTRY CAPACITY vs circulating flow (veh/h; fixed model; 2 seeds)
+
+ circulating vc  model (sim)  model params  HCM 2010   HCM 6
+              0         1196          1286      1130    1380
+            252          949          1035       878    1067
+            520          634           822       672     812
+            880          270           603       469     563
+
+Model gap rules: critical gap 4.5 s (HCM 6 implies ~5.0 s), follow-up 2.8 s
+(HCM 6 implies ~2.6 s). Circulating flow = 85% of Green N departures (its
+straight and left movements pass the Main E merge).

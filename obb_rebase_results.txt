@@ -1,0 +1,11 @@
+OBB re-base (margin 4.596 m) over 386 scenarios
+
+controller               | real overlap | mean clearance |  vs base
+--------------------------------------------------------------------
+Smart Stop (3.5 m)       |  176/386 ( 46%) |          7.8s |        —
+Smart Stop OBB (4.6 m)   |    0/386 (  0%) |         10.0s |     +28%
+Smart Safe (4.0 m)       |    3/386 (  1%) |         10.5s |        —
+Smart Safe OBB (4.6 m)   |    0/386 (  0%) |         12.4s |     +18%
+
+Read: does OBB margin drive the real (paths-cross) overlap rate to ~0,
+and at what clearance-time cost? (Conservative upper bound on the cost.)

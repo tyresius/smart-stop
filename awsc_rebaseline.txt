@@ -1,0 +1,61 @@
+ALL-WAY STOP RE-BASELINE (same arrival seeds as hesitation_sweep.csv)
+
+Mean control delay (s), 5 seeds; served %; contacts found by the independent checker
+
+balanced:
+    400: AWSC legacy    6.3 (100% served, 0 contacts) | AWSC FCFS    3.2 (100% served, 0 contacts)
+    600: AWSC legacy   17.1 (100% served, 0 contacts) | AWSC FCFS    4.5 (100% served, 0 contacts)
+    800: AWSC legacy   59.1 (100% served, 0 contacts) | AWSC FCFS    8.7 (100% served, 0 contacts)
+   1000: AWSC legacy  110.1 (100% served, 0 contacts) | AWSC FCFS   20.3 (100% served, 0 contacts)
+   1200: AWSC legacy  223.9 (97% served, 0 contacts) | AWSC FCFS   77.8 (100% served, 0 contacts)
+
+arterial:
+    400: AWSC legacy    5.8 (100% served, 0 contacts) | AWSC FCFS    2.9 (100% served, 0 contacts)
+    600: AWSC legacy   26.8 (100% served, 0 contacts) | AWSC FCFS    4.1 (100% served, 0 contacts)
+    800: AWSC legacy   68.8 (100% served, 0 contacts) | AWSC FCFS   10.9 (100% served, 0 contacts)
+   1000: AWSC legacy  135.8 (99% served, 0 contacts) | AWSC FCFS   14.3 (100% served, 0 contacts)
+   1200: AWSC legacy  206.7 (97% served, 0 contacts) | AWSC FCFS   68.8 (100% served, 0 contacts)
+
+Rebuilt stop sign (FCFS) minus each committed alternative, paired by seed:
+(negative = the plain stop sign has LOWER delay)
+
+  balanced    400  vs signal            n=5     -2.9 s  [  -4.2,   -1.7]  stop sign lower
+  balanced    400  vs Safe H=0 rolling  n=5     +1.9 s  [  +1.2,   +2.6]  stop sign higher
+  balanced    400  vs Safe full stop    n=5     -0.1 s  [  -0.6,   +0.4]  stop sign not resolved
+  balanced    400  vs Safe H=0.5        n=5     -1.2 s  [  -1.6,   -0.8]  stop sign lower
+  balanced    400  vs Safe H=1          n=5     -2.4 s  [  -2.9,   -2.0]  stop sign lower
+  balanced    600  vs signal            n=5     -4.2 s  [  -6.0,   -2.4]  stop sign lower
+  balanced    600  vs Safe H=0 rolling  n=5     +2.1 s  [  +1.6,   +2.7]  stop sign higher
+  balanced    600  vs Safe full stop    n=5     +0.1 s  [  -0.3,   +0.5]  stop sign not resolved
+  balanced    600  vs Safe H=0.5        n=5     -1.9 s  [  -3.3,   -0.4]  stop sign lower
+  balanced    600  vs Safe H=1          n=5     -4.7 s  [  -6.6,   -2.9]  stop sign lower
+  balanced    800  vs signal            n=5     -2.2 s  [  -3.8,   -0.6]  stop sign lower
+  balanced    800  vs Safe H=0 rolling  n=5     +2.8 s  [  +1.1,   +4.5]  stop sign higher
+  balanced    800  vs Safe full stop    n=5     +0.1 s  [  -0.8,   +1.0]  stop sign not resolved
+  balanced    800  vs Safe H=0.5        n=5     -6.0 s  [  -9.7,   -2.3]  stop sign lower
+  balanced    800  vs Safe H=1          n=5    -19.0 s  [ -31.2,   -6.8]  stop sign lower
+  balanced   1000  vs signal            n=5     +7.1 s  [  -8.7,  +22.9]  stop sign not resolved
+  balanced   1000  vs Safe H=0 rolling  n=5     +4.5 s  [  -3.1,  +12.2]  stop sign not resolved
+  balanced   1200  vs signal            n=5    +46.0 s  [ +21.1,  +70.8]  stop sign higher
+  balanced   1200  vs Safe H=0 rolling  n=3    +13.2 s  [ -10.7,  +37.1]  stop sign not resolved
+
+  arterial    400  vs signal            n=5     -1.7 s  [  -3.0,   -0.5]  stop sign lower
+  arterial    400  vs Safe H=0 rolling  n=5     +1.8 s  [  +1.3,   +2.2]  stop sign higher
+  arterial    400  vs Safe full stop    n=5     -0.2 s  [  -0.4,   +0.1]  stop sign not resolved
+  arterial    400  vs Safe H=0.5        n=5     -1.3 s  [  -1.8,   -0.8]  stop sign lower
+  arterial    400  vs Safe H=1          n=5     -2.5 s  [  -3.4,   -1.6]  stop sign lower
+  arterial    600  vs signal            n=5     -2.4 s  [  -3.2,   -1.7]  stop sign lower
+  arterial    600  vs Safe H=0 rolling  n=5     +1.7 s  [  +1.1,   +2.3]  stop sign higher
+  arterial    600  vs Safe full stop    n=5     -1.0 s  [  -1.8,   -0.2]  stop sign lower
+  arterial    600  vs Safe H=0.5        n=5     -3.2 s  [  -4.8,   -1.6]  stop sign lower
+  arterial    600  vs Safe H=1          n=5     -6.2 s  [  -9.3,   -3.1]  stop sign lower
+  arterial    800  vs signal            n=5     +0.7 s  [  +0.1,   +1.3]  stop sign higher
+  arterial    800  vs Safe H=0 rolling  n=5     +1.3 s  [  -4.0,   +6.6]  stop sign not resolved
+  arterial    800  vs Safe full stop    n=5     -0.9 s  [  -4.4,   +2.7]  stop sign not resolved
+  arterial    800  vs Safe H=0.5        n=5    -11.6 s  [ -25.7,   +2.4]  stop sign not resolved
+  arterial    800  vs Safe H=1          n=5    -27.0 s  [ -56.4,   +2.3]  stop sign not resolved
+  arterial   1000  vs signal            n=5     +2.0 s  [  -1.5,   +5.4]  stop sign not resolved
+  arterial   1000  vs Safe H=0 rolling  n=4     -2.8 s  [ -15.3,   +9.7]  stop sign not resolved
+  arterial   1200  vs signal            n=5    +39.0 s  [ +14.3,  +63.8]  stop sign higher
+  arterial   1200  vs Safe H=0 rolling  n=3     +0.5 s  [ -24.5,  +25.6]  stop sign not resolved
+

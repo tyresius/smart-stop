@@ -1,0 +1,81 @@
+cell,lam,rep,alg,mean_delay,served_pct,obb_real,obb_artifact,obb_min_gap_m,secs
+dominant,2400,0,Smart Safe OBB,152.04,77.91,0,0,0.92,453
+balanced,2400,1,Smart Safe 3.5,51.41,100.0,2,64,0.0,464
+balanced,2400,0,Smart Safe 3.5,67.31,100.0,1,66,0.0,566
+dominant,2400,0,Smart Safe 3.5,136.32,90.49,2,68,0.0,752
+balanced,2400,0,Smart Safe OBB,138.94,100.0,0,0,1.8,839
+dominant,2400,1,Smart Safe 3.5,122.83,95.12,3,87,0.0,736
+dominant,2400,1,Smart Safe OBB,145.67,82.01,0,0,1.16,656
+balanced,2400,2,Smart Safe 3.5,62.92,100.0,0,57,0.0,737
+balanced,2400,1,Smart Safe OBB,137.18,100.0,0,0,1.32,1228
+dominant,2400,2,Smart Safe OBB,158.06,78.1,0,0,1.32,591
+dominant,2400,2,Smart Safe 3.5,146.61,87.94,0,54,0.0,721
+balanced,2400,3,Smart Safe 3.5,73.76,100.0,3,63,0.0,659
+balanced,2400,2,Smart Safe OBB,146.25,100.0,0,0,1.66,1323
+dominant,2400,3,Smart Safe 3.5,136.1,94.05,0,80,0.0,519
+dominant,2400,3,Smart Safe OBB,151.71,81.85,0,0,1.32,518
+balanced,2400,3,Smart Safe OBB,140.99,100.0,0,0,1.8,1211
+balanced,2400,0,Roundabout,37.55,100.0,144,0,0.0,35
+dominant,2400,4,Smart Safe 3.5,135.09,97.44,5,82,0.0,605
+balanced,2400,0,Roundabout OBB,100.03,100.0,0,0,1.82,22
+dominant,2400,4,Smart Safe OBB,159.03,84.94,0,0,1.8,522
+dominant,2400,0,Roundabout,141.1,99.38,85,0,0.0,28
+dominant,2400,0,Roundabout OBB,157.11,99.01,0,0,1.92,20
+balanced,2400,1,Roundabout OBB,85.4,100.0,0,0,1.82,23
+balanced,2400,1,Roundabout,28.39,100.0,145,0,0.0,35
+dominant,2400,1,Roundabout,123.5,100.0,88,0,0.0,29
+dominant,2400,1,Roundabout OBB,155.53,99.35,1,0,0.0,21
+balanced,2400,2,Roundabout OBB,109.52,100.0,0,0,1.82,23
+balanced,2400,2,Roundabout,41.91,100.0,139,0,0.0,35
+balanced,2400,4,Smart Safe 3.5,82.63,100.0,0,84,0.0,884
+dominant,2400,2,Roundabout,143.64,100.0,71,0,0.0,26
+dominant,2400,2,Roundabout OBB,171.73,99.32,0,0,1.82,19
+balanced,2400,3,Roundabout OBB,95.37,100.0,0,0,1.9,23
+dominant,2400,3,Roundabout OBB,154.25,99.39,0,0,1.91,21
+dominant,2400,3,Roundabout,113.42,100.0,102,0,0.0,29
+balanced,2400,3,Roundabout,39.92,100.0,133,0,0.0,33
+balanced,2400,4,Roundabout OBB,104.3,100.0,0,0,1.82,23
+dominant,2400,4,Roundabout OBB,163.07,99.01,0,0,1.9,20
+dominant,2400,4,Roundabout,123.39,100.0,87,0,0.0,27
+balanced,2400,4,Roundabout,37.63,100.0,143,0,0.0,35
+balanced,2400,4,Smart Safe OBB,164.36,100.0,0,0,1.36,1300
+arterial,2000,1,Smart Safe 3.5,54.5,100.0,0,67,0.0,439
+arterial,2000,0,Smart Safe 3.5,52.66,100.0,0,59,0.0,481
+arterial,2000,2,Smart Safe 3.5,22.55,100.0,2,60,0.0,177
+arterial,2000,1,Smart Safe OBB,104.16,100.0,0,0,1.62,583
+arterial,2000,0,Smart Safe OBB,94.83,100.0,0,0,1.48,642
+arterial,2000,2,Smart Safe OBB,41.07,100.0,0,0,1.8,308
+arterial,2000,0,Roundabout,73.25,100.0,59,0,0.0,21
+arterial,2000,0,Roundabout OBB,90.45,100.0,0,0,2.29,17
+arterial,2000,1,Roundabout,66.44,100.0,54,0,0.0,21
+arterial,2000,1,Roundabout OBB,115.49,100.0,0,0,1.92,16
+arterial,2000,2,Roundabout,25.5,100.0,54,0,0.0,19
+arterial,2000,4,Smart Safe 3.5,28.52,100.0,2,54,0.0,266
+arterial,2000,2,Roundabout OBB,40.54,100.0,1,0,0.0,15
+arterial,2000,3,Roundabout,77.77,100.0,57,0,0.0,22
+arterial,2000,3,Roundabout OBB,101.39,100.0,0,0,1.82,18
+arterial,2000,4,Roundabout OBB,65.07,100.0,0,0,1.92,18
+arterial,2000,4,Roundabout,34.37,100.0,68,0,0.0,23
+light,1000,0,Smart Safe 3.5,2.78,100.0,3,15,0.0,11
+light,1000,0,Smart Safe OBB,4.69,100.0,0,0,1.81,14
+light,1000,1,Smart Safe 3.5,1.31,100.0,2,12,0.0,9
+light,1000,1,Smart Safe OBB,2.48,100.0,0,0,0.67,12
+light,1000,2,Smart Safe 3.5,2.11,100.0,6,10,0.0,11
+light,1000,3,Smart Safe 3.5,1.64,100.0,1,1,0.0,5
+light,1000,3,Smart Safe OBB,2.46,100.0,0,0,1.8,7
+light,1000,2,Smart Safe OBB,6.1,100.0,0,0,1.81,17
+light,1000,4,Smart Safe 3.5,1.74,100.0,1,6,0.0,7
+light,1000,4,Smart Safe OBB,2.63,100.0,0,0,1.8,8
+light,1000,0,Roundabout,1.66,100.0,27,0,0.0,9
+light,1000,0,Roundabout OBB,2.91,100.0,0,0,2.29,7
+light,1000,1,Roundabout OBB,2.09,100.0,0,0,1.82,8
+light,1000,1,Roundabout,1.69,100.0,30,0,0.0,10
+light,1000,2,Roundabout OBB,3.36,100.0,1,0,0.0,8
+light,1000,2,Roundabout,2.51,100.0,37,0,0.0,11
+light,1000,3,Roundabout OBB,1.65,100.0,0,0,2.28,7
+light,1000,3,Roundabout,1.51,100.0,27,0,0.0,9
+light,1000,4,Roundabout OBB,2.18,100.0,0,0,2.32,6
+light,1000,4,Roundabout,1.38,100.0,25,0,0.0,8
+arterial,2000,3,Smart Safe 3.5,61.99,100.0,1,68,0.0,548
+arterial,2000,4,Smart Safe OBB,68.4,100.0,0,0,1.8,428
+arterial,2000,3,Smart Safe OBB,103.63,100.0,0,0,1.79,584

@@ -1,0 +1,25 @@
+VERIFICATION LOG: 2026-11-19
+Environment: Python 3.13.7, numpy 2.3.2 (macOS, arm64).
+Run in this repository's directory.
+
+TESTS (29)
+  test_independent_checker.py   12/12 passed
+  test_awsc_fcfs.py              6/6 passed
+  test_blind_no_truth.py         2/2 passed
+  test_stop_penalty.py           4/4 passed
+  test_rolling_hesitation.py     5/5 passed
+
+SUMMARIES REBUILT FROM SAVED RESULTS (--summarize), compared byte for byte
+with the committed .txt
+  checker_validation        identical
+  dominance_check           identical
+  fair_signalling_test      identical
+  rolling_hesitation_test   identical
+  roundabout_rerun          identical
+  stop_penalty_check        identical
+
+Not re-run here: the full simulations (hours each), and compute_timing.py.
+Machine timings vary with load; see compute_timing.txt.
+
+test_safe_r.py is an earlier experiment (July 2026) and is not part of the
+29.

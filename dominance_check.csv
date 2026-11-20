@@ -1,0 +1,241 @@
+cond,split,lam,rep,mean_sp,stop_frac,served_pct,contacts,min_gap_moving,cap_blocks,secs
+"Safe full stop, no cap",arterial,600,0,7.953,1.0,100.0,0,1.801,0,20
+"Safe full stop, no cap",arterial,600,1,9.719,1.0,100.0,0,1.801,0,42
+"Safe full stop, no cap",arterial,600,2,6.932,1.0,100.0,0,1.807,0,17
+"Safe full stop, no cap",arterial,600,3,6.772,1.0,100.0,0,2.35,0,14
+"Safe full stop, no cap",arterial,600,4,7.2,1.0,100.0,0,1.801,0,14
+"Safe full stop, no cap",arterial,800,0,14.844,1.0,100.0,0,1.801,0,56
+"Safe full stop, no cap",arterial,800,1,12.889,1.0,100.0,0,1.801,0,47
+"Safe full stop, no cap",arterial,800,2,15.71,1.0,100.0,0,1.801,0,82
+"Safe full stop, no cap",arterial,800,3,11.151,1.0,100.0,0,1.801,0,39
+"Safe full stop, no cap",arterial,800,4,18.29,1.0,100.0,0,1.801,0,83
+"Safe full stop, no cap",arterial,1000,0,34.2,1.0,100.0,0,1.801,0,206
+"Safe full stop, no cap",arterial,1000,1,19.288,1.0,100.0,0,1.801,0,119
+"Safe full stop, no cap",arterial,1000,2,15.031,1.0,100.0,0,1.801,0,71
+"Safe full stop, no cap",arterial,1000,3,13.564,1.0,100.0,0,1.801,0,50
+"Safe full stop, no cap",arterial,1000,4,26.913,1.0,100.0,0,1.801,0,170
+"Safe full stop, no cap",balanced,600,0,7.116,1.0,100.0,0,1.801,0,14
+"Safe full stop, no cap",balanced,600,1,7.721,1.0,100.0,0,1.801,0,17
+"Safe full stop, no cap",balanced,600,2,7.248,1.0,100.0,0,1.801,0,15
+"Safe full stop, no cap",balanced,600,3,7.437,1.0,100.0,0,1.801,0,19
+"Safe full stop, no cap",balanced,600,4,7.419,1.0,100.0,0,1.801,0,14
+"Safe full stop, no cap",balanced,800,0,8.548,1.0,100.0,0,1.801,0,32
+"Safe full stop, no cap",balanced,800,1,11.213,1.0,100.0,0,1.801,0,44
+"Safe full stop, no cap",balanced,800,2,15.624,1.0,100.0,0,1.801,0,61
+"Safe full stop, no cap",balanced,800,3,8.22,1.0,100.0,0,1.801,0,18
+"Safe full stop, no cap",balanced,800,4,13.181,1.0,100.0,0,1.801,0,49
+"Safe full stop, no cap",balanced,1000,0,21.909,1.0,100.0,0,1.801,0,104
+"Safe full stop, no cap",balanced,1000,1,17.174,1.0,100.0,0,1.801,0,106
+"Safe full stop, no cap",balanced,1000,2,38.865,1.0,100.0,0,1.801,0,250
+"Safe full stop, no cap",balanced,1000,3,13.147,1.0,100.0,0,1.801,0,58
+"Safe full stop, no cap",balanced,1000,4,17.063,1.0,100.0,0,1.801,0,78
+"Safe full stop, no cap, informed",arterial,600,0,5.537,1.0,100.0,0,0.763,0,4
+"Safe full stop, no cap, informed",arterial,600,1,6.308,1.0,100.0,0,0.763,0,8
+"Safe full stop, no cap, informed",arterial,600,2,5.595,1.0,100.0,0,0.763,0,4
+"Safe full stop, no cap, informed",arterial,600,3,5.669,1.0,100.0,0,0.763,0,4
+"Safe full stop, no cap, informed",arterial,600,4,5.552,1.0,100.0,0,0.763,0,2
+"Safe full stop, no cap, informed",arterial,800,0,6.905,1.0,100.0,0,0.763,0,8
+"Safe full stop, no cap, informed",arterial,800,1,7.062,1.0,100.0,0,0.763,0,8
+"Safe full stop, no cap, informed",arterial,800,2,7.736,1.0,100.0,0,0.763,0,11
+"Safe full stop, no cap, informed",arterial,800,3,5.887,1.0,100.0,0,0.763,0,5
+"Safe full stop, no cap, informed",arterial,800,4,8.752,1.0,100.0,0,0.763,0,11
+"Safe full stop, no cap, informed",arterial,1000,0,7.358,1.0,100.0,0,0.763,0,14
+"Safe full stop, no cap, informed",arterial,1000,1,8.1,1.0,100.0,0,0.763,0,13
+"Safe full stop, no cap, informed",arterial,1000,2,8.506,1.0,100.0,0,0.763,0,10
+"Safe full stop, no cap, informed",arterial,1000,3,7.349,1.0,100.0,0,0.763,0,8
+"Safe full stop, no cap, informed",arterial,1000,4,9.474,1.0,100.0,0,0.763,0,16
+"Safe full stop, no cap, informed",balanced,600,0,5.432,1.0,100.0,0,0.763,0,3
+"Safe full stop, no cap, informed",balanced,600,1,6.044,1.0,100.0,0,0.763,0,4
+"Safe full stop, no cap, informed",balanced,600,2,5.87,1.0,100.0,0,0.763,0,3
+"Safe full stop, no cap, informed",balanced,600,3,5.722,1.0,100.0,0,0.763,0,5
+"Safe full stop, no cap, informed",balanced,600,4,5.394,1.0,100.0,0,0.763,0,3
+"Safe full stop, no cap, informed",balanced,800,0,5.99,1.0,100.0,0,0.763,0,6
+"Safe full stop, no cap, informed",balanced,800,1,6.669,1.0,100.0,0,0.763,0,6
+"Safe full stop, no cap, informed",balanced,800,2,7.807,1.0,100.0,0,0.763,0,9
+"Safe full stop, no cap, informed",balanced,800,3,6.228,1.0,100.0,0,0.763,0,4
+"Safe full stop, no cap, informed",balanced,800,4,7.124,1.0,100.0,0,0.763,0,8
+"Safe full stop, no cap, informed",balanced,1000,0,8.457,1.0,100.0,0,0.763,0,11
+"Safe full stop, no cap, informed",balanced,1000,1,7.797,1.0,100.0,0,0.763,0,12
+"Safe full stop, no cap, informed",balanced,1000,2,10.775,1.0,100.0,0,0.763,0,16
+"Safe full stop, no cap, informed",balanced,1000,3,7.58,1.0,100.0,0,0.763,0,9
+"Safe full stop, no cap, informed",balanced,1000,4,8.004,1.0,100.0,0,0.763,0,11
+Safe rolling,arterial,600,0,3.864,0.464,100.0,0,1.787,0,8
+Safe rolling,arterial,600,1,4.901,0.577,100.0,0,1.801,0,36
+Safe rolling,arterial,600,2,2.923,0.41,100.0,0,1.787,0,8
+Safe rolling,arterial,600,3,3.246,0.471,100.0,0,1.807,0,9
+Safe rolling,arterial,600,4,3.295,0.421,100.0,0,1.801,0,5
+Safe rolling,arterial,800,0,10.447,0.73,100.0,0,1.787,0,40
+Safe rolling,arterial,800,1,9.758,0.764,100.0,0,1.801,0,34
+Safe rolling,arterial,800,2,11.522,0.835,100.0,0,1.801,0,64
+Safe rolling,arterial,800,3,6.704,0.547,100.0,0,1.801,0,24
+Safe rolling,arterial,800,4,17.104,0.948,100.0,0,1.801,0,85
+Safe rolling,arterial,1000,0,30.368,0.977,100.0,0,1.801,0,172
+Safe rolling,arterial,1000,1,15.633,0.89,100.0,0,1.787,0,78
+Safe rolling,arterial,1000,2,12.52,0.82,100.0,0,1.801,0,43
+Safe rolling,arterial,1000,3,10.931,0.857,100.0,0,1.801,0,34
+Safe rolling,arterial,1000,4,26.97,0.938,100.0,0,1.801,0,164
+Safe rolling,balanced,600,0,4.058,0.541,100.0,0,1.787,0,8
+Safe rolling,balanced,600,1,3.08,0.432,100.0,0,2.5,0,8
+Safe rolling,balanced,600,2,4.134,0.506,100.0,0,1.787,0,7
+Safe rolling,balanced,600,3,5.204,0.692,100.0,0,1.787,0,11
+Safe rolling,balanced,600,4,4.355,0.507,100.0,0,1.801,0,7
+Safe rolling,balanced,800,0,4.705,0.538,100.0,0,2.5,0,17
+Safe rolling,balanced,800,1,8.264,0.661,100.0,0,1.787,0,28
+Safe rolling,balanced,800,2,12.377,0.832,100.0,0,1.237,0,51
+Safe rolling,balanced,800,3,4.126,0.548,100.0,0,1.787,0,9
+Safe rolling,balanced,800,4,9.867,0.842,100.0,0,1.801,0,31
+Safe rolling,balanced,1000,0,18.314,0.961,100.0,0,1.801,0,79
+Safe rolling,balanced,1000,1,12.839,0.9,100.0,0,1.801,0,67
+Safe rolling,balanced,1000,2,29.529,0.966,100.0,0,1.801,0,148
+Safe rolling,balanced,1000,3,11.743,0.926,100.0,0,1.801,0,39
+Safe rolling,balanced,1000,4,13.19,0.843,100.0,0,1.801,0,56
+"Safe rolling, informed",arterial,600,0,1.702,0.238,100.0,0,0.715,0,2
+"Safe rolling, informed",arterial,600,1,2.706,0.402,100.0,0,0.576,0,5
+"Safe rolling, informed",arterial,600,2,1.705,0.269,100.0,0,0.715,0,2
+"Safe rolling, informed",arterial,600,3,1.502,0.264,100.0,0,0.715,0,2
+"Safe rolling, informed",arterial,600,4,1.463,0.197,100.0,0,0.715,0,1
+"Safe rolling, informed",arterial,800,0,3.528,0.443,100.0,0,0.576,0,5
+"Safe rolling, informed",arterial,800,1,2.439,0.33,100.0,0,0.576,0,3
+"Safe rolling, informed",arterial,800,2,4.921,0.504,100.0,0,0.715,7,8
+"Safe rolling, informed",arterial,800,3,2.097,0.316,100.0,0,0.715,0,3
+"Safe rolling, informed",arterial,800,4,4.987,0.467,100.0,0,0.715,0,7
+"Safe rolling, informed",arterial,1000,0,4.081,0.477,100.0,0,0.576,0,10
+"Safe rolling, informed",arterial,1000,1,5.169,0.528,100.0,0,0.576,0,8
+"Safe rolling, informed",arterial,1000,2,4.731,0.459,100.0,0,0.715,0,6
+"Safe rolling, informed",arterial,1000,3,2.853,0.405,100.0,0,0.576,0,4
+"Safe rolling, informed",arterial,1000,4,5.193,0.589,100.0,0,0.705,2,9
+"Safe rolling, informed",balanced,600,0,1.559,0.224,100.0,0,0.715,0,2
+"Safe rolling, informed",balanced,600,1,1.964,0.318,100.0,0,0.576,0,2
+"Safe rolling, informed",balanced,600,2,2.026,0.278,100.0,0,0.715,0,2
+"Safe rolling, informed",balanced,600,3,2.15,0.385,100.0,0,0.715,0,2
+"Safe rolling, informed",balanced,600,4,2.071,0.254,100.0,0,0.763,0,2
+"Safe rolling, informed",balanced,800,0,1.949,0.28,100.0,0,0.715,0,4
+"Safe rolling, informed",balanced,800,1,2.355,0.303,100.0,0,0.715,0,4
+"Safe rolling, informed",balanced,800,2,4.029,0.487,100.0,0,0.576,0,6
+"Safe rolling, informed",balanced,800,3,2.169,0.29,100.0,0,0.576,0,2
+"Safe rolling, informed",balanced,800,4,3.028,0.404,100.0,0,0.576,0,4
+"Safe rolling, informed",balanced,1000,0,6.108,0.643,100.0,0,0.715,0,9
+"Safe rolling, informed",balanced,1000,1,3.759,0.45,100.0,0,0.65,2,7
+"Safe rolling, informed",balanced,1000,2,8.421,0.75,100.0,0,0.715,6,11
+"Safe rolling, informed",balanced,1000,3,3.723,0.459,100.0,0,0.715,0,5
+"Safe rolling, informed",balanced,1000,4,4.629,0.537,100.0,0,0.715,0,6
+"Safe rolling, no cap",arterial,600,0,3.864,0.464,100.0,0,1.787,0,9
+"Safe rolling, no cap",arterial,600,1,4.901,0.577,100.0,0,1.801,0,36
+"Safe rolling, no cap",arterial,600,2,2.923,0.41,100.0,0,1.787,0,8
+"Safe rolling, no cap",arterial,600,3,3.246,0.471,100.0,0,1.807,0,9
+"Safe rolling, no cap",arterial,600,4,3.295,0.421,100.0,0,1.801,0,5
+"Safe rolling, no cap",arterial,800,0,10.447,0.73,100.0,0,1.787,0,42
+"Safe rolling, no cap",arterial,800,1,9.758,0.764,100.0,0,1.801,0,34
+"Safe rolling, no cap",arterial,800,2,11.522,0.835,100.0,0,1.801,0,65
+"Safe rolling, no cap",arterial,800,3,6.704,0.547,100.0,0,1.801,0,24
+"Safe rolling, no cap",arterial,800,4,17.104,0.948,100.0,0,1.801,0,84
+"Safe rolling, no cap",arterial,1000,0,30.368,0.977,100.0,0,1.801,0,180
+"Safe rolling, no cap",arterial,1000,1,15.633,0.89,100.0,0,1.787,0,84
+"Safe rolling, no cap",arterial,1000,2,12.52,0.82,100.0,0,1.801,0,45
+"Safe rolling, no cap",arterial,1000,3,10.931,0.857,100.0,0,1.801,0,37
+"Safe rolling, no cap",arterial,1000,4,26.97,0.938,100.0,0,1.801,0,170
+"Safe rolling, no cap",balanced,600,0,4.058,0.541,100.0,0,1.787,0,9
+"Safe rolling, no cap",balanced,600,1,3.08,0.432,100.0,0,2.5,0,8
+"Safe rolling, no cap",balanced,600,2,4.134,0.506,100.0,0,1.787,0,7
+"Safe rolling, no cap",balanced,600,3,5.204,0.692,100.0,0,1.787,0,11
+"Safe rolling, no cap",balanced,600,4,4.355,0.507,100.0,0,1.801,0,7
+"Safe rolling, no cap",balanced,800,0,4.705,0.538,100.0,0,2.5,0,18
+"Safe rolling, no cap",balanced,800,1,8.264,0.661,100.0,0,1.787,0,30
+"Safe rolling, no cap",balanced,800,2,12.377,0.832,100.0,0,1.237,0,53
+"Safe rolling, no cap",balanced,800,3,4.126,0.548,100.0,0,1.787,0,10
+"Safe rolling, no cap",balanced,800,4,9.867,0.842,100.0,0,1.801,0,33
+"Safe rolling, no cap",balanced,1000,0,18.314,0.961,100.0,0,1.801,0,82
+"Safe rolling, no cap",balanced,1000,1,12.839,0.9,100.0,0,1.801,0,69
+"Safe rolling, no cap",balanced,1000,2,29.529,0.966,100.0,0,1.801,0,154
+"Safe rolling, no cap",balanced,1000,3,11.743,0.926,100.0,0,1.801,0,42
+"Safe rolling, no cap",balanced,1000,4,13.19,0.843,100.0,0,1.801,0,59
+"Safe rolling, no cap, informed",arterial,600,0,1.702,0.238,100.0,0,0.715,0,2
+"Safe rolling, no cap, informed",arterial,600,1,2.706,0.402,100.0,0,0.576,0,5
+"Safe rolling, no cap, informed",arterial,600,2,1.705,0.269,100.0,0,0.715,0,2
+"Safe rolling, no cap, informed",arterial,600,3,1.502,0.264,100.0,0,0.715,0,2
+"Safe rolling, no cap, informed",arterial,600,4,1.463,0.197,100.0,0,0.715,0,1
+"Safe rolling, no cap, informed",arterial,800,0,3.528,0.443,100.0,0,0.576,0,5
+"Safe rolling, no cap, informed",arterial,800,1,2.439,0.33,100.0,0,0.576,0,3
+"Safe rolling, no cap, informed",arterial,800,2,4.915,0.504,100.0,0,0.715,0,9
+"Safe rolling, no cap, informed",arterial,800,3,2.097,0.316,100.0,0,0.715,0,3
+"Safe rolling, no cap, informed",arterial,800,4,4.987,0.467,100.0,0,0.715,0,8
+"Safe rolling, no cap, informed",arterial,1000,0,4.081,0.477,100.0,0,0.576,0,10
+"Safe rolling, no cap, informed",arterial,1000,1,5.169,0.528,100.0,0,0.576,0,9
+"Safe rolling, no cap, informed",arterial,1000,2,4.731,0.459,100.0,0,0.715,0,7
+"Safe rolling, no cap, informed",arterial,1000,3,2.853,0.405,100.0,0,0.576,0,5
+"Safe rolling, no cap, informed",arterial,1000,4,5.19,0.589,100.0,0,0.705,0,10
+"Safe rolling, no cap, informed",balanced,600,0,1.559,0.224,100.0,0,0.715,0,2
+"Safe rolling, no cap, informed",balanced,600,1,1.964,0.318,100.0,0,0.576,0,2
+"Safe rolling, no cap, informed",balanced,600,2,2.026,0.278,100.0,0,0.715,0,2
+"Safe rolling, no cap, informed",balanced,600,3,2.15,0.385,100.0,0,0.715,0,2
+"Safe rolling, no cap, informed",balanced,600,4,2.071,0.254,100.0,0,0.763,0,2
+"Safe rolling, no cap, informed",balanced,800,0,1.949,0.28,100.0,0,0.715,0,4
+"Safe rolling, no cap, informed",balanced,800,1,2.355,0.303,100.0,0,0.715,0,3
+"Safe rolling, no cap, informed",balanced,800,2,4.029,0.487,100.0,0,0.576,0,6
+"Safe rolling, no cap, informed",balanced,800,3,2.169,0.29,100.0,0,0.576,0,2
+"Safe rolling, no cap, informed",balanced,800,4,3.028,0.404,100.0,0,0.576,0,4
+"Safe rolling, no cap, informed",balanced,1000,0,6.108,0.643,100.0,0,0.715,0,9
+"Safe rolling, no cap, informed",balanced,1000,1,3.683,0.433,100.0,0,0.715,0,7
+"Safe rolling, no cap, informed",balanced,1000,2,8.401,0.75,100.0,0,0.715,0,10
+"Safe rolling, no cap, informed",balanced,1000,3,3.723,0.459,100.0,0,0.715,0,5
+"Safe rolling, no cap, informed",balanced,1000,4,4.629,0.537,100.0,0,0.715,0,6
+Stop sign,arterial,600,0,6.698,1.0,100.0,0,0.583,0,2
+Stop sign,arterial,600,1,8.248,1.0,100.0,0,0.575,0,3
+Stop sign,arterial,600,2,6.386,1.0,100.0,0,0.583,0,2
+Stop sign,arterial,600,3,6.54,1.0,100.0,0,0.575,0,2
+Stop sign,arterial,600,4,5.867,1.0,100.0,0,0.575,0,2
+Stop sign,arterial,800,0,13.693,1.0,100.0,0,0.575,0,3
+Stop sign,arterial,800,1,10.777,1.0,100.0,0,0.575,0,2
+Stop sign,arterial,800,2,17.273,1.0,100.0,0,0.583,0,4
+Stop sign,arterial,800,3,11.366,1.0,100.0,0,0.575,0,2
+Stop sign,arterial,800,4,14.272,1.0,100.0,0,0.583,0,4
+Stop sign,arterial,1000,0,20.556,1.0,100.0,0,0.575,0,5
+Stop sign,arterial,1000,1,14.862,1.0,100.0,0,0.575,0,4
+Stop sign,arterial,1000,2,19.108,1.0,100.0,0,0.575,0,4
+Stop sign,arterial,1000,3,11.505,1.0,100.0,0,0.575,0,4
+Stop sign,arterial,1000,4,18.642,1.0,100.0,0,0.575,0,4
+Stop sign,balanced,600,0,6.574,1.0,100.0,0,0.583,0,2
+Stop sign,balanced,600,1,7.166,1.0,100.0,0,0.583,0,2
+Stop sign,balanced,600,2,7.456,1.0,100.0,0,0.575,0,2
+Stop sign,balanced,600,3,7.4,1.0,100.0,0,0.583,0,2
+Stop sign,balanced,600,4,7.029,1.0,100.0,0,0.583,0,1
+Stop sign,balanced,800,0,9.029,1.0,100.0,0,0.583,0,2
+Stop sign,balanced,800,1,11.823,1.0,100.0,0,0.583,0,3
+Stop sign,balanced,800,2,16.809,1.0,100.0,0,0.583,0,3
+Stop sign,balanced,800,3,8.024,1.0,100.0,0,0.583,0,2
+Stop sign,balanced,800,4,10.861,1.0,100.0,0,0.583,0,3
+Stop sign,balanced,1000,0,22.62,1.0,100.0,0,0.575,0,4
+Stop sign,balanced,1000,1,15.208,1.0,100.0,0,0.575,0,4
+Stop sign,balanced,1000,2,48.968,1.0,100.0,0,0.583,0,5
+Stop sign,balanced,1000,3,12.007,1.0,100.0,0,0.583,0,3
+Stop sign,balanced,1000,4,15.56,1.0,100.0,0,0.575,0,4
+"Stop sign, folk-only",arterial,600,0,6.789,1.0,100.0,0,0.583,0,2
+"Stop sign, folk-only",arterial,600,1,8.38,1.0,100.0,0,0.575,0,2
+"Stop sign, folk-only",arterial,600,2,6.613,1.0,100.0,0,0.583,0,1
+"Stop sign, folk-only",arterial,600,3,6.609,1.0,100.0,0,0.575,0,2
+"Stop sign, folk-only",arterial,600,4,6.187,1.0,100.0,0,0.575,0,1
+"Stop sign, folk-only",arterial,800,0,14.549,1.0,100.0,0,0.575,0,3
+"Stop sign, folk-only",arterial,800,1,10.746,1.0,100.0,0,0.575,0,3
+"Stop sign, folk-only",arterial,800,2,18.789,1.0,100.0,0,0.583,0,4
+"Stop sign, folk-only",arterial,800,3,11.656,1.0,100.0,0,0.575,0,2
+"Stop sign, folk-only",arterial,800,4,15.239,1.0,100.0,0,0.583,0,4
+"Stop sign, folk-only",arterial,1000,0,26.434,1.0,100.0,0,0.575,0,5
+"Stop sign, folk-only",arterial,1000,1,21.426,1.0,100.0,0,0.575,0,5
+"Stop sign, folk-only",arterial,1000,2,19.776,1.0,100.0,0,0.575,0,4
+"Stop sign, folk-only",arterial,1000,3,11.84,1.0,100.0,0,0.575,0,4
+"Stop sign, folk-only",arterial,1000,4,20.795,1.0,100.0,0,0.575,0,4
+"Stop sign, folk-only",balanced,600,0,6.576,1.0,100.0,0,0.583,0,2
+"Stop sign, folk-only",balanced,600,1,7.258,1.0,100.0,0,0.583,0,2
+"Stop sign, folk-only",balanced,600,2,7.49,1.0,100.0,0,0.575,0,2
+"Stop sign, folk-only",balanced,600,3,7.4,1.0,100.0,0,0.583,0,2
+"Stop sign, folk-only",balanced,600,4,7.024,1.0,100.0,0,0.583,0,1
+"Stop sign, folk-only",balanced,800,0,9.184,1.0,100.0,0,0.583,0,3
+"Stop sign, folk-only",balanced,800,1,13.163,1.0,100.0,0,0.583,0,3
+"Stop sign, folk-only",balanced,800,2,19.024,1.0,100.0,0,0.583,0,4
+"Stop sign, folk-only",balanced,800,3,8.355,1.0,100.0,0,0.583,0,2
+"Stop sign, folk-only",balanced,800,4,11.022,1.0,100.0,0,0.583,0,3
+"Stop sign, folk-only",balanced,1000,0,23.696,1.0,100.0,0,0.583,0,4
+"Stop sign, folk-only",balanced,1000,1,15.583,1.0,100.0,0,0.575,0,4
+"Stop sign, folk-only",balanced,1000,2,49.147,1.0,100.0,0,0.583,0,5
+"Stop sign, folk-only",balanced,1000,3,13.571,1.0,100.0,0,0.583,0,3
+"Stop sign, folk-only",balanced,1000,4,17.876,1.0,100.0,0,0.575,0,4

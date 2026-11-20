@@ -1,0 +1,11 @@
+OBB diagnostic over 386 scenarios (overlap = OBB gap <= 0; bumper-safe = gap >= 0.5 m)
+
+controller   | center floor |  OBB floor |   overlaps | < 0.5 m bumper
+----------------------------------------------------------------------
+Smart Stop   |       3.46 m |     0.00 m |  243/384 ( 63%) |  294/384 ( 77%)
+Smart Safe   |       3.99 m |     0.00 m |   18/384 (  5%) |   99/384 ( 26%)
+Roundabout   |       9.11 m |     3.27 m |    0/386 (  0%) |    0/386 (  0%)
+
+Read: 'OBB floor' is the realized bumper-to-bumper clearance (m).
+If Smart Stop/Safe show overlaps where the roundabout does not, the
+center-distance safety metric was masking physical broadside conflicts.

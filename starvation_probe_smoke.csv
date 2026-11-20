@@ -1,0 +1,2 @@
+mode,lam_vph,rep,algorithm,overall_mean,served_frac,victim_mean,victim_p95,victim_served,dom_mean,dom_p95,min_dist_m
+bursty,2000,0,Roundabout,25.17,1.0,33.02,48.03,1.0,31.64,56.87,3.54

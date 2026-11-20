@@ -1,0 +1,24 @@
+      light 1000 Smart Safe      : 2.8s (served 100.0%)  (3s)
+      light 1000 full Smart Stop : 2.5s (served 100.0%)  (6s)
+      light 1000 Roundabout      : 1.7s (served 100.0%)  (8s)
+   arterial 2000 Smart Safe      : 52.7s (served 100.0%)  (157s)
+   arterial 2000 full Smart Stop : 56.9s (served 100.0%)  (242s)
+   arterial 2000 Roundabout      : 73.2s (served 100.0%)  (246s)
+   balanced 2400 Smart Safe      : 67.3s (served 100.0%)  (429s)
+   balanced 2400 full Smart Stop : 83.4s (served 100.0%)  (722s)
+   balanced 2400 Roundabout      : 37.6s (served 100.0%)  (739s)
+   dominant 2400 Smart Safe      : 136.3s (served 90.5%)  (1345s)
+   dominant 2400 full Smart Stop : 142.1s (served 91.7%)  (1991s)
+   dominant 2400 Roundabout      : 141.1s (served 99.4%)  (1997s)
+
+==============================================================================
+SMART SAFE vs ROUNDABOUT (streaming, honest traffic) — the survival gate
+==============================================================================
+           cell |  Smart Safe | full SmartStop |  Roundabout |  Safe vs RB
+------------------------------------------------------------------------------
+     light 1000 |        2.8s |           2.5s |        1.7s |  Safe loses
+  arterial 2000 |       52.7s |          56.9s |       73.2s |   Safe WINS
+  balanced 2400 |       67.3s |          83.4s |       37.6s |  Safe loses
+  dominant 2400 |      136.3s |         142.1s |      141.1s |   Safe WINS
+==============================================================================
+Smart Safe at parity-or-better with the roundabout in 2/4 regime cells.
