@@ -4,7 +4,7 @@
 
 **Technical report — version 0.1 (draft for review) — 15 November 2026**
 
-**Author:** [Author name]. Prepared in a personal capacity.
+**Author:** Patrick Tyler. Prepared in a personal capacity.
 
 > **Status.** Every result here comes from simulation. The results are
 > relative to *modelled* comparators, not to field measurements. Nothing

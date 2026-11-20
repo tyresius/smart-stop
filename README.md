@@ -138,5 +138,5 @@ record above documents every change of conclusion.
 The code, analyses and report were developed with AI assistance (Anthropic's
 Claude), directed and reviewed by the author.
 
-Copyright © 2026 [Author name]. All rights reserved; published for review
+Copyright © 2026 Patrick Tyler. All rights reserved; published for review
 and reproduction. See [`LICENSE`](LICENSE).
