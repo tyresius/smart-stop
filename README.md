@@ -36,7 +36,7 @@ by the very growth in traffic that makes them dysfunctional.
 
 **We can't change the intersection's footprint. We can manage it better.**
 
-**Enter Smart Stop: the stop sign that works like a traffic signal.** Each
+**Enter Smart Stop: the stop sign that works like a traffic light.** Each
 stop sign gets a camera that watches its approach, and a green flash that
 tells drivers when to go. One controller runs the whole intersection. It
 can work out where cars are going from how they actually move, without
@@ -151,7 +151,7 @@ Full experiments, which are long (hours):
 | Headline vs the all-way stop; false signals | `python fair_signalling_test.py` |
 | Mini-roundabout | `python roundabout_rerun.py` (needs `fair_signalling_test.csv`) |
 | Where the gain comes from | `python dominance_check.py` |
-| Rolling × hesitation; actuated signal | `python rolling_hesitation_test.py` |
+| Rolling × hesitation; actuated traffic light | `python rolling_hesitation_test.py` |
 | Calibration and sensitivity | `awsc_calibration.py`, `roundabout_calibration.py`, `stop_penalty_check.py`, `moveup_sensitivity.py` |
 | Compute timing | `python compute_timing.py` |
 
@@ -166,7 +166,7 @@ the saved `.csv` in seconds.
 | `fair_signalling_test.py` | The signal-reading design and the signal-aware stop sign, plus the headline experiment |
 | `cs4_human_baseline.py` | The all-way stop (first come, first served) |
 | `obb_survival_gate.py`, `roundabout_entry.py` | The mini-roundabout and the footprint checks |
-| `stopsign_vs_signal.py` | The actuated signal |
+| `stopsign_vs_signal.py` | The actuated traffic light |
 | `independent_checker.py` | The independent collision checker |
 | `capacity_curves.py` | Arrival streams, simulation harness and delay metric |
 | `path_based_smart_stop.py`, `block2_platoon.py`, `block3_reality.py` | Geometry, vehicle model, platoons, rolling launches |
