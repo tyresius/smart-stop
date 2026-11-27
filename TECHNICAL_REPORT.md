@@ -123,7 +123,8 @@ We evaluate two answers to that question:
 3. **A diagnosis:** information, not the controller's release capacity, is
    what limits the blind design (§5.3).
 4. **An audited, reproducible process:**
-   - four external audits, with every finding and response recorded;
+   - five audits by AI models (Gemini and ChatGPT), with every finding and
+     response recorded;
    - an independent collision checker;
    - 29 tests;
    - a published repository with a verification log;
@@ -581,8 +582,9 @@ elsewhere. We have not modelled this.
 
 ## 8. How the conclusions changed
 
-The study was audited four times by external reviewers. The conclusions
-moved substantially, and the record is kept in full (`FINAL_AUDIT.md`,
+The study was audited five times (audits 0–4) by AI models other than the
+one used to build it: Google's Gemini and OpenAI's ChatGPT. None of these
+was a human peer review. The conclusions moved substantially, and the record is kept in full (`FINAL_AUDIT.md`,
 `CLAIMS_ARCHIVE.md`).
 
 **Original claim (July 2026): "~4× capacity vs an all-way stop."**
@@ -684,9 +686,10 @@ The audit trail is in `FINAL_AUDIT.md`, and current claims in `CLAIMS.md`.
 
 **Use of AI.** The simulation code, the analyses and this report were
 developed with AI assistance (Anthropic's Claude), directed and reviewed by
-the author. Audit 0 was performed by Google's Gemini. The findings of
-audits 1–4 and the responses to them are recorded in `FINAL_AUDIT.md` §8;
-the audit-4 report is in `audits/`.
+the author. Audits 0–4 were performed by other AI models, Google's Gemini
+and OpenAI's ChatGPT, not by human reviewers. Their findings and the
+responses to them are recorded in `FINAL_AUDIT.md` §8; the audit-4 report
+is in `audits/`.
 
 ---
 

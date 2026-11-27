@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you cite this work, please cite it as below."
+type: software
+title: "Smart Stop: an all-way stop sign plus a camera and a green flash for each approach. A simulation study"
+version: "0.1"
+authors:
+  - family-names: Tyler
+    given-names: Patrick
+repository-code: "https://github.com/tyresius/smart-stop"
+abstract: >-
+  A simulation study of an all-way stop sign with a camera and a green flash
+  for each approach, which releases non-conflicting cars together and lets a
+  car flashed at the line roll through. Two designs are compared, one that
+  reads turn signals and one that ignores them, against a modelled all-way
+  stop, a mini-roundabout and an actuated signal on an isolated single-lane
+  four-way intersection. Includes the technical report, code, result files,
+  tests and the audit record. All results are simulated and relative to
+  modelled alternatives, not field measurements.
+keywords:
+  - traffic simulation
+  - intersection control
+  - all-way stop
+  - traffic engineering

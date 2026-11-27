@@ -453,6 +453,9 @@ arterial") ran at 1,000-2,400 veh/h with the old metric; it is superseded.
 
 ## 8. External audits and responses
 
+All five audits were performed by AI models, Google's Gemini and OpenAI's
+ChatGPT, not by human reviewers.
+
 - **Audit 0 (Sep, Gemini):** the centre-distance safety metric hid footprint
   overlaps. Accepted; OBB standard adopted.
 - **Audit 1 (9 Nov, document-level):** headline overstated; hesitation

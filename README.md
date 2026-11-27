@@ -1,15 +1,62 @@
 # Smart Stop
 
-**An all-way stop sign plus a camera and a green flash for each approach:
-a simulation study.**
+**I live by a crazy intersection.** Two major two-lane roads and a
+neighborhood road meet at an offset four-way stop, and the driveways of a
+grocery store and a pharmacy open right into it: four roads, six ways in.
+*Worse, it's where my kids wait for the bus every morning.*
 
-At an all-way stop every car stops, and drivers take turns. Smart Stop keeps
-the stop sign and adds a camera and a green flash for each approach. The
-flash tells a driver they may go:
-- a car flashed as it reaches the line may roll through without stopping;
-- cars whose paths don't cross are flashed together.
+```
+                   Neighborhood Road
+                    |       :       |
+ Grocery store      |               |                   Pharmacy
+                    |       :       |
+          \    \    |               |        /    /
+           \    \   |       :       |       /    /
+            \    \  | [STOP]        |      /    /
+-------------     --+               +------     ------------------------
+ Major Road 1                                   [STOP] <-
+--  --  --  --  --                              --  --  --  --  --  --
+         -> [STOP]                                        Major Road 1
+------------------------------+               +-------------------------
+                              |         [STOP]|
+                              |       :       |
+                              |               |
+                              |       :       |
+                              #               #
++==+==+==+==+==+==+==+==+==+==#       :       #==+==+==+==+==+==+==+==+=
+  Train tracks                #               #
+  (Road 2 is a bridge)        |       :       |
+                              |               |
+                                Major Road 2
+```
 
-If the system is off, the intersection is an ordinary all-way stop.
+I'm sure there's one like it near you. Intersections like this were laid out
+decades ago for lighter traffic. Now they're made unfixable by geography, and
+by the very growth in traffic that makes them dysfunctional.
+
+**We can't change the intersection's footprint. We can manage it better.**
+
+**Enter Smart Stop: the stop sign that works like a traffic signal.** Each
+stop sign gets a camera that watches its approach, and a green flash that
+tells drivers when to go. One controller runs the whole intersection. It
+can work out where cars are going from how they actually move, without
+trusting turn signals (the "blind" design below), and it:
+- flashes cars whose paths don't cross at the same time;
+- in light traffic, flashes a car as it reaches the line so it can go
+  without stopping (a "rolling green");
+- in heavy traffic, releases the queue at one sign in platoons of up to four
+  cars, to clear the backlog.
+
+A violation camera photographs drivers who go without a flash, the way a
+red-light camera does. *(Proposed; enforcement isn't part of the
+simulation.)*
+
+The fail-safe is the best feature: a dead Smart Stop is exactly today's
+four-way stop. As Mitch Hedberg said, "An escalator can never break: it can
+only become stairs." Sorry for the convenience.
+
+The simulation here doesn't model my intersection: offset roads and
+driveways are untested.
 
 > **Status (November 2026): a simulation study.** All results come from a
 > simulated isolated, single-lane, four-way intersection. They are relative
@@ -20,7 +67,7 @@ If the system is off, the intersection is an ordinary all-way stop.
 - [`TECHNICAL_REPORT.md`](TECHNICAL_REPORT.md): the study, about 10 pages.
 - [`CLAIMS.md`](CLAIMS.md): the only claims to quote, with their conditions.
 - [`FINAL_AUDIT.md`](FINAL_AUDIT.md): the model, the full results, the
-  limitations, and four rounds of external audit.
+  limitations, and five rounds of audit by AI models.
 
 ---
 
@@ -67,8 +114,9 @@ paired 95% intervals.
 
 ## How it was checked
 
-- **Four rounds of external audit.** Corrections and retracted claims are
-  kept on the record: `FINAL_AUDIT.md` §3 and §7, and `CLAIMS_ARCHIVE.md`.
+- **Five rounds of audit by AI models** (Google's Gemini and OpenAI's
+  ChatGPT). There has been no human peer review yet. Corrections and
+  retracted claims are kept on the record: `FINAL_AUDIT.md` §3 and §7, and `CLAIMS_ARCHIVE.md`.
   The earliest headline, "~4× capacity", did not survive.
 - **An independent collision checker** that shares no code with any
   controller.
