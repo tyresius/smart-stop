@@ -6,6 +6,8 @@
 
 **Author:** Patrick Tyler. Prepared in a personal capacity.
 
+**DOI:** [10.5281/zenodo.24602948](https://doi.org/10.5281/zenodo.24602948) (all versions)
+
 > **Status.** Every result here comes from simulation. The results are
 > relative to *modelled* comparators, not to field measurements. Nothing
 > here establishes real-world safety, legality, deployability or cost.

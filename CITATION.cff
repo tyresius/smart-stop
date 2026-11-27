@@ -3,6 +3,10 @@ message: "If you cite this work, please cite it as below."
 type: software
 title: "Smart Stop: an all-way stop sign plus a camera and a green flash for each approach. A simulation study"
 version: "0.1"
+doi: 10.5281/zenodo.24602948
+license:
+  - MIT
+  - CC-BY-4.0
 authors:
   - family-names: Tyler
     given-names: Patrick

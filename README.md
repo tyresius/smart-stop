@@ -1,5 +1,7 @@
 # Smart Stop
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24602948.svg)](https://doi.org/10.5281/zenodo.24602948)
+
 **I live by a crazy intersection.** Two major two-lane roads and a
 neighborhood road meet at an offset four-way stop, and the driveways of a
 grocery store and a pharmacy open right into it: four roads, six ways in.
@@ -188,5 +190,15 @@ record above documents every change of conclusion.
 The code, analyses and report were developed with AI assistance (Anthropic's
 Claude), directed and reviewed by the author.
 
-Copyright © 2026 Patrick Tyler. All rights reserved; published for review
-and reproduction. See [`LICENSE`](LICENSE).
+To cite this work, use the DOI [10.5281/zenodo.24602948](https://doi.org/10.5281/zenodo.24602948), which always
+points to the latest version, or GitHub's "Cite this repository" button.
+
+## License
+
+The code is released under the MIT License (see [`LICENSE`](LICENSE)). The
+report, the pitch deck, the other written documents and the result files are
+released under [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/).
+The audit report in `audits/` was written by an AI auditor and is included as
+part of the record.
+
+Copyright © 2026 Patrick Tyler.
