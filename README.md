@@ -65,6 +65,8 @@ driveways are untested.
 
 **Start here**
 - [`TECHNICAL_REPORT.md`](TECHNICAL_REPORT.md): the study, about 10 pages.
+- [`Smart_Stop_Research_Pitch.pdf`](Smart_Stop_Research_Pitch.pdf): the
+  11-slide research pitch.
 - [`CLAIMS.md`](CLAIMS.md): the only claims to quote, with their conditions.
 - [`FINAL_AUDIT.md`](FINAL_AUDIT.md): the model, the full results, the
   limitations, and five rounds of audit by AI models.
